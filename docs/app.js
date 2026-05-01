@@ -36,22 +36,54 @@ function showError(msg) {
 
 function renderTotals() {
   const t = SUMMARY.totals || {};
-  const stats = [
-    ["repos", t.repo_count],
-    ["stars", t.total_stars],
-    ["forks", t.total_forks],
-    ["watchers", t.total_watchers],
-    ["views (30d)", t.views_30d],
-    ["unique visitors (30d)", t.unique_visitors_30d],
-    ["clones (30d)", t.clones_30d],
-    ["unique cloners (30d)", t.unique_cloners_30d],
+  const sections = [
+    {
+      label: "Overview",
+      stats: [
+        ["repos", t.repo_count],
+        ["stars", t.total_stars],
+        ["forks", t.total_forks],
+        ["watchers", t.total_watchers],
+        ["npm packages", t.npm_packages_count],
+      ],
+    },
+    {
+      label: "All-time totals",
+      stats: [
+        ["views", t.views_all_time],
+        ["unique visitors", t.unique_visitors_all_time],
+        ["clones", t.clones_all_time],
+        ["unique cloners", t.unique_cloners_all_time],
+        ["npm downloads", t.npm_downloads_all_time],
+      ],
+    },
+    {
+      label: "Last 30 days",
+      stats: [
+        ["views", t.views_30d],
+        ["unique visitors", t.unique_visitors_30d],
+        ["clones", t.clones_30d],
+        ["unique cloners", t.unique_cloners_30d],
+        ["npm downloads", t.npm_downloads_30d],
+      ],
+    },
   ];
-  document.getElementById("totals").innerHTML = stats
+
+  const html = sections
     .map(
-      ([lbl, v]) =>
-        `<div class="stat"><div class="num">${fmt(v)}</div><div class="lbl">${lbl}</div></div>`
+      (s) => `
+      <div class="totals-label">${s.label}</div>
+      <div class="totals-section">
+        ${s.stats
+          .map(
+            ([lbl, v]) =>
+              `<div class="stat"><div class="num">${fmt(v)}</div><div class="lbl">${lbl}</div></div>`
+          )
+          .join("")}
+      </div>`
     )
     .join("");
+  document.getElementById("totals").innerHTML = html;
 }
 
 function renderRepoPicker() {
@@ -81,19 +113,28 @@ function renderRepo() {
   const repo = sel.value;
   const days = document.getElementById("range-select").value;
   const data = (SUMMARY.repos || {})[repo];
+  const npmCard = document.getElementById("card-npm");
   if (!data) {
     document.getElementById("repo-meta").innerHTML = "";
+    npmCard.hidden = true;
     return;
   }
 
   const meta = data.meta || {};
+  const allTime = data.all_time || {};
   document.getElementById("repo-meta").innerHTML = [
     meta.archived ? "archived" : null,
     meta.fork ? "fork" : null,
     meta.language ? `lang: ${meta.language}` : null,
     `★ ${fmt(meta.stars)}`,
     `⑂ ${fmt(meta.forks)}`,
+    allTime.views != null ? `views: ${fmt(allTime.views)}` : null,
+    allTime.clones != null ? `clones: ${fmt(allTime.clones)}` : null,
+    data.npm ? `npm: ${fmt(data.npm.all_time)} dl` : null,
     `<a href="https://github.com/${repo}" target="_blank" rel="noopener">github →</a>`,
+    data.npm
+      ? `<a href="https://www.npmjs.com/package/${data.npm.name}" target="_blank" rel="noopener">npm →</a>`
+      : null,
   ]
     .filter(Boolean)
     .map((s) => `<span class="tag">${s}</span>`)
@@ -106,6 +147,29 @@ function renderRepo() {
   drawDual("chart-views", views, "views", "unique visitors", "#4f9cff", "#ffaa4f");
   drawDual("chart-clones", clones, "clones", "unique cloners", "#7ddc7d", "#ff7da6");
   drawHistory("chart-history", history);
+
+  if (data.npm) {
+    npmCard.hidden = false;
+    const n = data.npm;
+    document.getElementById("npm-pkg-name").innerHTML =
+      `<a href="https://www.npmjs.com/package/${n.name}" target="_blank" rel="noopener">${escape(n.name)}</a>` +
+      (n.latest_version ? `<span class="ver">v${escape(n.latest_version)}</span>` : "");
+    document.getElementById("npm-stats").innerHTML = [
+      ["all-time", n.all_time],
+      ["last 30d", n.d30],
+      ["last 7d", n.d7],
+      ["versions", n.version_count],
+    ]
+      .map(
+        ([lbl, v]) =>
+          `<div class="npm-stat"><div class="num">${fmt(v)}</div><div class="lbl">${lbl}</div></div>`
+      )
+      .join("");
+    const npmDaily = (n.daily || []).filter((d) => inRange(d.date, days));
+    drawNpm("chart-npm", npmDaily);
+  } else {
+    npmCard.hidden = true;
+  }
 
   fillTable(
     "table-referrers",
@@ -186,6 +250,27 @@ function drawHistory(canvasId, rows) {
         { label: "stars", data: rows.map((r) => r.stars), borderColor: "#ffd24a", tension: 0.25, pointRadius: 1 },
         { label: "forks", data: rows.map((r) => r.forks), borderColor: "#7ddc7d", tension: 0.25, pointRadius: 1 },
         { label: "watchers", data: rows.map((r) => r.watchers), borderColor: "#c08aff", tension: 0.25, pointRadius: 1 },
+      ],
+    },
+    options: chartOpts(),
+  });
+}
+
+function drawNpm(canvasId, rows) {
+  if (charts[canvasId]) charts[canvasId].destroy();
+  const ctx = document.getElementById(canvasId);
+  charts[canvasId] = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels: rows.map((r) => r.date),
+      datasets: [
+        {
+          label: "downloads",
+          data: rows.map((r) => r.downloads),
+          backgroundColor: "#cb3837",
+          borderColor: "#cb3837",
+          borderWidth: 0,
+        },
       ],
     },
     options: chartOpts(),

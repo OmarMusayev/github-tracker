@@ -1,7 +1,11 @@
 {
-  "generated_at": "2026-05-01T22:19:47.603588+00:00",
+  "generated_at": "2026-05-01T22:19:15.272534+00:00",
   "repos": {
     "OmarMusayev/Adneural": {
+      "all_time": {
+        "clones": 2,
+        "views": 7
+      },
       "clones": [
         {
           "count": 0,
@@ -118,6 +122,7 @@
         "pushed_at": "2026-04-05T13:08:42Z",
         "snap_date": "2026-05-01",
         "stars": 6,
+        "subscribers": 0,
         "watchers": 6
       },
       "paths": [
@@ -222,6 +227,10 @@
       ]
     },
     "OmarMusayev/ai-handwriting-generator": {
+      "all_time": {
+        "clones": 17,
+        "views": 9
+      },
       "clones": [
         {
           "count": 0,
@@ -346,6 +355,7 @@
         "pushed_at": "2026-03-20T06:42:04Z",
         "snap_date": "2026-05-01",
         "stars": 7,
+        "subscribers": 1,
         "watchers": 7
       },
       "paths": [
@@ -449,6 +459,10 @@
       ]
     },
     "OmarMusayev/github-tracker": {
+      "all_time": {
+        "clones": 0,
+        "views": 0
+      },
       "clones": [
         {
           "count": 0,
@@ -545,6 +559,7 @@
         "pushed_at": "2026-05-01T22:10:11Z",
         "snap_date": "2026-05-01",
         "stars": 0,
+        "subscribers": 0,
         "watchers": 0
       },
       "paths": [],
@@ -624,6 +639,10 @@
       ]
     },
     "OmarMusayev/puzzlesolver": {
+      "all_time": {
+        "clones": 1,
+        "views": 101
+      },
       "clones": [
         {
           "count": 0,
@@ -720,6 +739,7 @@
         "pushed_at": "2023-08-03T23:59:41Z",
         "snap_date": "2026-05-01",
         "stars": 7,
+        "subscribers": 1,
         "watchers": 7
       },
       "paths": [
@@ -853,6 +873,10 @@
       ]
     },
     "OmarMusayev/terminaltui": {
+      "all_time": {
+        "clones": 195,
+        "views": 70
+      },
       "clones": [
         {
           "count": 1,
@@ -957,7 +981,181 @@
         "pushed_at": "2026-04-29T03:24:23Z",
         "snap_date": "2026-05-01",
         "stars": 29,
+        "subscribers": 3,
         "watchers": 29
+      },
+      "npm": {
+        "all_time": 2201,
+        "created_at": "2026-03-23T03:04:44.365Z",
+        "d30": 902,
+        "d7": 356,
+        "daily": [
+          {
+            "date": "2026-03-23",
+            "downloads": 120
+          },
+          {
+            "date": "2026-03-24",
+            "downloads": 551
+          },
+          {
+            "date": "2026-03-25",
+            "downloads": 44
+          },
+          {
+            "date": "2026-03-26",
+            "downloads": 135
+          },
+          {
+            "date": "2026-03-27",
+            "downloads": 408
+          },
+          {
+            "date": "2026-03-28",
+            "downloads": 11
+          },
+          {
+            "date": "2026-03-29",
+            "downloads": 1
+          },
+          {
+            "date": "2026-03-30",
+            "downloads": 10
+          },
+          {
+            "date": "2026-03-31",
+            "downloads": 19
+          },
+          {
+            "date": "2026-04-01",
+            "downloads": 9
+          },
+          {
+            "date": "2026-04-02",
+            "downloads": 0
+          },
+          {
+            "date": "2026-04-03",
+            "downloads": 3
+          },
+          {
+            "date": "2026-04-04",
+            "downloads": 10
+          },
+          {
+            "date": "2026-04-05",
+            "downloads": 0
+          },
+          {
+            "date": "2026-04-06",
+            "downloads": 0
+          },
+          {
+            "date": "2026-04-07",
+            "downloads": 19
+          },
+          {
+            "date": "2026-04-08",
+            "downloads": 10
+          },
+          {
+            "date": "2026-04-09",
+            "downloads": 0
+          },
+          {
+            "date": "2026-04-10",
+            "downloads": 160
+          },
+          {
+            "date": "2026-04-11",
+            "downloads": 217
+          },
+          {
+            "date": "2026-04-12",
+            "downloads": 63
+          },
+          {
+            "date": "2026-04-13",
+            "downloads": 29
+          },
+          {
+            "date": "2026-04-14",
+            "downloads": 9
+          },
+          {
+            "date": "2026-04-15",
+            "downloads": 2
+          },
+          {
+            "date": "2026-04-16",
+            "downloads": 2
+          },
+          {
+            "date": "2026-04-17",
+            "downloads": 4
+          },
+          {
+            "date": "2026-04-18",
+            "downloads": 0
+          },
+          {
+            "date": "2026-04-19",
+            "downloads": 2
+          },
+          {
+            "date": "2026-04-20",
+            "downloads": 3
+          },
+          {
+            "date": "2026-04-21",
+            "downloads": 2
+          },
+          {
+            "date": "2026-04-22",
+            "downloads": 1
+          },
+          {
+            "date": "2026-04-23",
+            "downloads": 1
+          },
+          {
+            "date": "2026-04-24",
+            "downloads": 4
+          },
+          {
+            "date": "2026-04-25",
+            "downloads": 0
+          },
+          {
+            "date": "2026-04-26",
+            "downloads": 2
+          },
+          {
+            "date": "2026-04-27",
+            "downloads": 45
+          },
+          {
+            "date": "2026-04-28",
+            "downloads": 102
+          },
+          {
+            "date": "2026-04-29",
+            "downloads": 184
+          },
+          {
+            "date": "2026-04-30",
+            "downloads": 19
+          },
+          {
+            "date": "2026-05-01",
+            "downloads": 0
+          }
+        ],
+        "description": "Framework for building interactive terminal websites and apps \u2014 30+ components, grid system, spatial navigation, themes, ASCII art, file-based routing",
+        "latest_version": "1.6.1",
+        "license": "MIT",
+        "name": "terminaltui",
+        "version_count": 17
       },
       "paths": [
         {
@@ -1105,12 +1303,20 @@
   },
   "totals": {
     "clones_30d": 215,
+    "clones_all_time": 215,
+    "npm_downloads_30d": 902,
+    "npm_downloads_7d": 356,
+    "npm_downloads_all_time": 2201,
+    "npm_packages_count": 1,
     "repo_count": 5,
     "total_forks": 2,
     "total_stars": 49,
-    "total_watchers": 49,
+    "total_watchers": 5,
     "unique_cloners_30d": 88,
+    "unique_cloners_all_time": 88,
     "unique_visitors_30d": 120,
-    "views_30d": 187
+    "unique_visitors_all_time": 120,
+    "views_30d": 187,
+    "views_all_time": 187
   }
 }

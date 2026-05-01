@@ -5,6 +5,11 @@ venv/
 .env
 .DS_Store
 
+# Local secrets — never commit
+pat.txt
+*.pat
+*.token
+
 # SQLite is rebuilt from data/raw/ on every run
 data/db.sqlite
 data/db.sqlite-journal

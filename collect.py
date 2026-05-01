@@ -5,6 +5,9 @@ Source of truth is data/raw/YYYY-MM-DD/owner__repo.json (committed).
 SQLite is rebuilt from those files each run, then today's snapshot is
 appended. The Traffic API only retains 14 days, so this script must run
 at least every 14 days; daily is recommended.
+
+If npm_packages.json maps a repo to an npm package name, that package's
+registry metadata + daily download history are also captured.
 """
 from __future__ import annotations
 
@@ -13,8 +16,9 @@ import os
 import sqlite3
 import sys
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 import requests
 
@@ -23,6 +27,7 @@ DATA = ROOT / "data"
 RAW = DATA / "raw"
 DB_PATH = DATA / "db.sqlite"
 SUMMARY_PATH = ROOT / "docs" / "data" / "summary.json"
+NPM_PACKAGES_FILE = ROOT / "npm_packages.json"
 
 GITHUB_API = "https://api.github.com"
 TOKEN = os.environ.get("GH_TRAFFIC_TOKEN") or os.environ.get("GITHUB_TOKEN")
@@ -43,6 +48,8 @@ session.headers.update({
     "X-GitHub-Api-Version": "2022-11-28",
     "User-Agent": "omar-github-tracker",
 })
+
+NPM_HEADERS = {"User-Agent": "omar-github-tracker"}
 
 
 def get(url, **params):
@@ -87,7 +94,79 @@ def discover_repos():
     return repos
 
 
-def fetch_repo_data(repo):
+def load_npm_packages():
+    """Map of {repo_full_name: npm_package_name}, or empty if no config."""
+    if not NPM_PACKAGES_FILE.exists():
+        return {}
+    try:
+        return json.loads(NPM_PACKAGES_FILE.read_text())
+    except json.JSONDecodeError as e:
+        print(f"!! malformed npm_packages.json: {e}")
+        return {}
+
+
+def fetch_npm(package):
+    """Registry metadata + full daily-downloads history for an npm package."""
+    enc = quote(package, safe="@/")
+    r = requests.get(
+        f"https://registry.npmjs.org/{enc}",
+        headers=NPM_HEADERS, timeout=30,
+    )
+    if r.status_code == 404:
+        return None
+    r.raise_for_status()
+    reg = r.json()
+
+    license_val = reg.get("license")
+    if isinstance(license_val, dict):
+        license_val = license_val.get("type")
+
+    out = {
+        "name": package,
+        "created_at": (reg.get("time") or {}).get("created"),
+        "modified_at": (reg.get("time") or {}).get("modified"),
+        "latest_version": (reg.get("dist-tags") or {}).get("latest"),
+        "versions": list((reg.get("versions") or {}).keys()),
+        "license": license_val,
+        "description": reg.get("description"),
+        "homepage": reg.get("homepage"),
+    }
+
+    # Daily downloads from package creation -> today, in 540-day chunks
+    # (npm's range API caps a single request at ~18 months).
+    if out["created_at"]:
+        start = datetime.fromisoformat(
+            out["created_at"].replace("Z", "+00:00")
+        ).date()
+    else:
+        start = (datetime.now(timezone.utc) - timedelta(days=540)).date()
+    today = datetime.now(timezone.utc).date()
+
+    daily = {}
+    cursor = start
+    while cursor <= today:
+        end = min(cursor + timedelta(days=540), today)
+        url = (
+            f"https://api.npmjs.org/downloads/range/"
+            f"{cursor.isoformat()}:{end.isoformat()}/{enc}"
+        )
+        try:
+            rr = requests.get(url, headers=NPM_HEADERS, timeout=30)
+            if rr.status_code == 404:
+                break
+            rr.raise_for_status()
+            for entry in (rr.json().get("downloads") or []):
+                daily[entry["day"]] = entry.get("downloads") or 0
+        except Exception as e:
+            print(f"    !! npm range {cursor}:{end}: {e}")
+        cursor = end + timedelta(days=1)
+
+    out["daily_downloads"] = daily
+    return out
+
+
+def fetch_repo_data(repo, npm_map=None):
+    npm_map = npm_map or {}
     full = repo["full_name"]
     out = {"full_name": full, "fetched_at": datetime.now(timezone.utc).isoformat()}
 
@@ -115,6 +194,15 @@ def fetch_repo_data(repo):
 
     r = get(f"{GITHUB_API}/repos/{full}/languages")
     out["languages"] = r.json() if r is not None else {}
+
+    package = npm_map.get(full)
+    if package:
+        print(f"    npm: {package}")
+        try:
+            out["npm"] = fetch_npm(package)
+        except Exception as e:
+            print(f"    !! npm fetch: {e}")
+            out["npm"] = None
 
     return out
 
@@ -158,6 +246,18 @@ def init_db(conn):
             repo TEXT NOT NULL, snap_date TEXT NOT NULL, language TEXT NOT NULL,
             bytes INTEGER,
             PRIMARY KEY (repo, snap_date, language)
+        );
+        CREATE TABLE IF NOT EXISTS npm_downloads (
+            package TEXT NOT NULL, date TEXT NOT NULL,
+            downloads INTEGER,
+            PRIMARY KEY (package, date)
+        );
+        CREATE TABLE IF NOT EXISTS npm_meta_snap (
+            package TEXT NOT NULL, snap_date TEXT NOT NULL,
+            latest_version TEXT, version_count INTEGER,
+            created_at TEXT, modified_at TEXT,
+            license TEXT, description TEXT,
+            PRIMARY KEY (package, snap_date)
         );
     """)
 
@@ -213,6 +313,23 @@ def store(conn, snap_date, data):
             (full, snap_date, lang, byts),
         )
 
+    npm = data.get("npm")
+    if npm:
+        pkg = npm["name"]
+        for d, dl in (npm.get("daily_downloads") or {}).items():
+            conn.execute(
+                "INSERT OR REPLACE INTO npm_downloads VALUES (?, ?, ?)",
+                (pkg, d, dl),
+            )
+        conn.execute(
+            "INSERT OR REPLACE INTO npm_meta_snap VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+            (
+                pkg, snap_date, npm.get("latest_version"),
+                len(npm.get("versions") or []), npm.get("created_at"),
+                npm.get("modified_at"), npm.get("license"), npm.get("description"),
+            ),
+        )
+
 
 def write_raw(snap_date, data):
     day_dir = RAW / snap_date
@@ -237,7 +354,8 @@ def rebuild_from_raw(conn):
     return n
 
 
-def build_summary(conn):
+def build_summary(conn, npm_map=None):
+    npm_map = npm_map or {}
     SUMMARY_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     repos = [r[0] for r in conn.execute(
@@ -246,7 +364,8 @@ def build_summary(conn):
 
     latest_meta_rows = conn.execute("""
         SELECT r.repo, r.stars, r.forks, r.watchers, r.open_issues,
-               r.language, r.archived, r.fork, r.pushed_at, r.snap_date
+               r.language, r.archived, r.fork, r.pushed_at, r.snap_date,
+               r.subscribers
         FROM repo_snap r
         JOIN (SELECT repo, MAX(snap_date) AS d FROM repo_snap GROUP BY repo) m
           ON m.repo = r.repo AND m.d = r.snap_date
@@ -256,6 +375,7 @@ def build_summary(conn):
         "open_issues": row[4], "language": row[5],
         "archived": bool(row[6]), "fork": bool(row[7]),
         "pushed_at": row[8], "snap_date": row[9],
+        "subscribers": row[10],
     } for row in latest_meta_rows}
 
     out = {
@@ -296,7 +416,10 @@ def build_summary(conn):
             ORDER BY bytes DESC
         """, (repo, repo)).fetchall()
 
-        out["repos"][repo] = {
+        clones_total = sum((c or 0) for _, c, _ in clones)
+        views_total = sum((c or 0) for _, c, _ in views)
+
+        repo_entry = {
             "meta": latest_meta.get(repo, {}),
             "clones": [{"date": d, "count": c, "uniques": u} for d, c, u in clones],
             "views": [{"date": d, "count": c, "uniques": u} for d, c, u in views],
@@ -315,7 +438,46 @@ def build_summary(conn):
                 {"tag": t, "asset": n, "downloads": d} for t, n, d in latest_releases
             ],
             "languages": [{"language": l, "bytes": b} for l, b in languages],
+            "all_time": {
+                "clones": clones_total,
+                "views": views_total,
+            },
         }
+
+        package = npm_map.get(repo)
+        if package:
+            daily_rows = conn.execute(
+                "SELECT date, downloads FROM npm_downloads "
+                "WHERE package=? ORDER BY date",
+                (package,)).fetchall()
+            meta_row = conn.execute("""
+                SELECT latest_version, version_count, created_at, license, description
+                FROM npm_meta_snap WHERE package=?
+                ORDER BY snap_date DESC LIMIT 1
+            """, (package,)).fetchone()
+            all_time_dl = sum((dl or 0) for _, dl in daily_rows)
+            d30 = conn.execute(
+                "SELECT COALESCE(SUM(downloads),0) FROM npm_downloads "
+                "WHERE package=? AND date >= date('now','-30 days')",
+                (package,)).fetchone()[0]
+            d7 = conn.execute(
+                "SELECT COALESCE(SUM(downloads),0) FROM npm_downloads "
+                "WHERE package=? AND date >= date('now','-7 days')",
+                (package,)).fetchone()[0]
+            repo_entry["npm"] = {
+                "name": package,
+                "latest_version": meta_row[0] if meta_row else None,
+                "version_count": meta_row[1] if meta_row else 0,
+                "created_at": meta_row[2] if meta_row else None,
+                "license": meta_row[3] if meta_row else None,
+                "description": meta_row[4] if meta_row else None,
+                "all_time": all_time_dl,
+                "d30": d30,
+                "d7": d7,
+                "daily": [{"date": d, "downloads": dl} for d, dl in daily_rows],
+            }
+
+        out["repos"][repo] = repo_entry
 
     def sum_q(sql):
         return conn.execute(sql).fetchone()[0] or 0
@@ -324,7 +486,15 @@ def build_summary(conn):
         "repo_count": len(repos),
         "total_stars": sum((m.get("stars") or 0) for m in latest_meta.values()),
         "total_forks": sum((m.get("forks") or 0) for m in latest_meta.values()),
-        "total_watchers": sum((m.get("watchers") or 0) for m in latest_meta.values()),
+        # subscribers_count is the real "Watching" count; watchers_count is
+        # a legacy alias for stargazers and would just duplicate stars.
+        "total_watchers": sum((m.get("subscribers") or 0) for m in latest_meta.values()),
+
+        "clones_all_time": sum_q("SELECT COALESCE(SUM(count),0) FROM traffic_clones"),
+        "views_all_time": sum_q("SELECT COALESCE(SUM(count),0) FROM traffic_views"),
+        "unique_cloners_all_time": sum_q("SELECT COALESCE(SUM(uniques),0) FROM traffic_clones"),
+        "unique_visitors_all_time": sum_q("SELECT COALESCE(SUM(uniques),0) FROM traffic_views"),
+
         "clones_30d": sum_q(
             "SELECT COALESCE(SUM(count),0) FROM traffic_clones "
             "WHERE date >= date('now', '-30 days')"),
@@ -337,6 +507,16 @@ def build_summary(conn):
         "unique_cloners_30d": sum_q(
             "SELECT COALESCE(SUM(uniques),0) FROM traffic_clones "
             "WHERE date >= date('now', '-30 days')"),
+
+        "npm_packages_count": len(npm_map),
+        "npm_downloads_all_time": sum_q(
+            "SELECT COALESCE(SUM(downloads),0) FROM npm_downloads"),
+        "npm_downloads_30d": sum_q(
+            "SELECT COALESCE(SUM(downloads),0) FROM npm_downloads "
+            "WHERE date >= date('now', '-30 days')"),
+        "npm_downloads_7d": sum_q(
+            "SELECT COALESCE(SUM(downloads),0) FROM npm_downloads "
+            "WHERE date >= date('now', '-7 days')"),
     }
 
     SUMMARY_PATH.write_text(json.dumps(out, indent=2, sort_keys=True))
@@ -357,6 +537,10 @@ def main():
     n = rebuild_from_raw(conn)
     print(f"rebuilt SQLite from {n} historical snapshots")
 
+    npm_map = load_npm_packages()
+    if npm_map:
+        print(f"npm packages tracked: {sorted(npm_map.values())}")
+
     repos = discover_repos()
     print(f"discovered {len(repos)} repos")
 
@@ -364,7 +548,7 @@ def main():
         full = repo["full_name"]
         print(f"  [{i}/{len(repos)}] {full}")
         try:
-            data = fetch_repo_data(repo)
+            data = fetch_repo_data(repo, npm_map)
             store(conn, snap_date, data)
             write_raw(snap_date, data)
         except requests.HTTPError as e:
@@ -372,7 +556,7 @@ def main():
             continue
 
     conn.commit()
-    build_summary(conn)
+    build_summary(conn, npm_map)
     conn.close()
     print(f"summary -> {SUMMARY_PATH.relative_to(ROOT)}")
 
