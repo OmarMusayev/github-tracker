@@ -48,30 +48,58 @@ h3 {
 .muted { color: var(--muted); font-size: 12px; }
 
 .totals {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
-.stat {
+.hero-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.hero-stat {
   background: var(--panel);
   border: 1px solid var(--border);
-  border-radius: 8px;
-  padding: 14px 16px;
+  border-radius: 10px;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-height: 84px;
 }
-.stat .num {
-  font-size: 22px;
-  font-weight: 600;
-  font-variant-numeric: tabular-nums;
-  letter-spacing: -0.01em;
-}
-.stat .lbl {
+.hero-lbl {
   font-size: 10px;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-top: 2px;
 }
+.hero-num {
+  font-size: 26px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-top: auto;
+}
+.hero-delta {
+  font-size: 11px;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  min-height: 1em;
+}
+.hero-delta .pos { color: #7ddc7d; }
+
+.more-strip {
+  font-size: 12px;
+  color: var(--muted);
+  padding: 4px 4px;
+  line-height: 1.7;
+}
+.more-strip strong {
+  color: var(--text);
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.more-strip .sep { opacity: 0.4; margin: 0 6px; }
 
 .picker {
   display: flex;
@@ -204,21 +232,6 @@ footer {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-top: 2px;
-}
-
-/* Visually group totals by category. */
-.totals-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-  gap: 10px;
-  margin-bottom: 12px;
-}
-.totals-label {
-  font-size: 10px;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin: 6px 2px 4px;
 }
 
 @media (max-width: 900px) {

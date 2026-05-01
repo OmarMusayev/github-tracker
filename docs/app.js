@@ -36,54 +36,45 @@ function showError(msg) {
 
 function renderTotals() {
   const t = SUMMARY.totals || {};
-  const sections = [
-    {
-      label: "Overview",
-      stats: [
-        ["repos", t.repo_count],
-        ["stars", t.total_stars],
-        ["forks", t.total_forks],
-        ["watchers", t.total_watchers],
-        ["npm packages", t.npm_packages_count],
-      ],
-    },
-    {
-      label: "All-time totals",
-      stats: [
-        ["views", t.views_all_time],
-        ["unique visitors", t.unique_visitors_all_time],
-        ["clones", t.clones_all_time],
-        ["unique cloners", t.unique_cloners_all_time],
-        ["npm downloads", t.npm_downloads_all_time],
-      ],
-    },
-    {
-      label: "Last 30 days",
-      stats: [
-        ["views", t.views_30d],
-        ["unique visitors", t.unique_visitors_30d],
-        ["clones", t.clones_30d],
-        ["unique cloners", t.unique_cloners_30d],
-        ["npm downloads", t.npm_downloads_30d],
-      ],
-    },
+  const delta = (n) =>
+    n != null && n > 0
+      ? `<span class="pos">+${fmt(n)}</span> last 30d`
+      : "&nbsp;";
+
+  const heroes = [
+    { lbl: "stars", num: t.total_stars, delta: "" },
+    { lbl: "views — all-time", num: t.views_all_time, delta: delta(t.views_30d) },
+    { lbl: "clones — all-time", num: t.clones_all_time, delta: delta(t.clones_30d) },
+    { lbl: "npm downloads — all-time", num: t.npm_downloads_all_time, delta: delta(t.npm_downloads_30d) },
+    { lbl: "repos tracked", num: t.repo_count, delta: "" },
   ];
 
-  const html = sections
+  const heroHtml = heroes
     .map(
-      (s) => `
-      <div class="totals-label">${s.label}</div>
-      <div class="totals-section">
-        ${s.stats
-          .map(
-            ([lbl, v]) =>
-              `<div class="stat"><div class="num">${fmt(v)}</div><div class="lbl">${lbl}</div></div>`
-          )
-          .join("")}
+      (h) => `
+      <div class="hero-stat">
+        <div class="hero-lbl">${h.lbl}</div>
+        <div class="hero-num">${fmt(h.num)}</div>
+        <div class="hero-delta">${h.delta || "&nbsp;"}</div>
       </div>`
     )
     .join("");
-  document.getElementById("totals").innerHTML = html;
+
+  const SEP = '<span class="sep">·</span>';
+  const stripBits = [
+    [t.unique_visitors_all_time, "unique visitors"],
+    [t.unique_cloners_all_time, "unique cloners"],
+    [t.total_forks, "forks"],
+    [t.total_watchers, "watchers"],
+    [t.npm_packages_count, t.npm_packages_count === 1 ? "npm package" : "npm packages"],
+  ]
+    .filter(([v]) => v != null)
+    .map(([v, lbl]) => `<strong>${fmt(v)}</strong> ${lbl}`)
+    .join(SEP);
+
+  document.getElementById("totals").innerHTML = `
+    <div class="hero-row">${heroHtml}</div>
+    <div class="more-strip">${stripBits}</div>`;
 }
 
 function renderRepoPicker() {
