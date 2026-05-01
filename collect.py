@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sqlite3
 import sys
 import time
@@ -559,6 +560,31 @@ def main():
     build_summary(conn, npm_map)
     conn.close()
     print(f"summary -> {SUMMARY_PATH.relative_to(ROOT)}")
+
+    # Stamp the dashboard's asset URLs so browsers fetch fresh CSS/JS
+    # whenever the data updates. Without this, browser caches the old
+    # styles.css and the new layout never appears until manual reload.
+    bump_asset_version(snap_date)
+
+
+def bump_asset_version(version):
+    html_path = ROOT / "docs" / "index.html"
+    if not html_path.exists():
+        return
+    content = html_path.read_text()
+    new = re.sub(
+        r'(href="styles\.css)\?v=[^"]*(")',
+        rf'\1?v={version}\2',
+        content,
+    )
+    new = re.sub(
+        r'(src="app\.js)\?v=[^"]*(")',
+        rf'\1?v={version}\2',
+        new,
+    )
+    if new != content:
+        html_path.write_text(new)
+        print(f"asset version -> {version}")
 
 
 if __name__ == "__main__":
