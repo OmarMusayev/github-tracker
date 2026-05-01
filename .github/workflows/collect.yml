@@ -30,6 +30,7 @@ jobs:
           GH_TRAFFIC_TOKEN: ${{ secrets.GH_TRAFFIC_TOKEN }}
           INCLUDE_FORKS: "false"
           INCLUDE_ARCHIVED: "false"
+          INCLUDE_PRIVATE: "false"
         run: python collect.py
 
       - name: Commit & push

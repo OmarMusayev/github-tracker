@@ -32,6 +32,9 @@ if not TOKEN:
 
 INCLUDE_FORKS = os.environ.get("INCLUDE_FORKS", "false").lower() == "true"
 INCLUDE_ARCHIVED = os.environ.get("INCLUDE_ARCHIVED", "false").lower() == "true"
+# Off by default so a public storage repo never leaks private repo names/traffic.
+# Flip to "true" only if the storage repo is private (requires GitHub Pro for Pages).
+INCLUDE_PRIVATE = os.environ.get("INCLUDE_PRIVATE", "false").lower() == "true"
 
 session = requests.Session()
 session.headers.update({
@@ -77,6 +80,8 @@ def discover_repos():
         if repo.get("fork") and not INCLUDE_FORKS:
             continue
         if repo.get("archived") and not INCLUDE_ARCHIVED:
+            continue
+        if repo.get("private") and not INCLUDE_PRIVATE:
             continue
         repos.append(repo)
     return repos
