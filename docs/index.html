@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GitHub Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>GitHub Tracker</h1>
+    <div class="muted" id="generated-at"></div>
+  </header>
+
+  <section class="totals" id="totals"></section>
+
+  <section class="picker">
+    <label>Repo
+      <select id="repo-select"></select>
+    </label>
+    <label>Range
+      <select id="range-select">
+        <option value="14">last 14d</option>
+        <option value="30">last 30d</option>
+        <option value="90">last 90d</option>
+        <option value="365">last 1y</option>
+        <option value="all" selected>all</option>
+      </select>
+    </label>
+    <div class="meta-tags" id="repo-meta"></div>
+  </section>
+
+  <section class="grid">
+    <div class="card span-2">
+      <h3>Views</h3>
+      <canvas id="chart-views"></canvas>
+    </div>
+    <div class="card span-2">
+      <h3>Clones</h3>
+      <canvas id="chart-clones"></canvas>
+    </div>
+    <div class="card span-2">
+      <h3>Stars / Forks / Watchers</h3>
+      <canvas id="chart-history"></canvas>
+    </div>
+    <div class="card">
+      <h3>Top referrers (latest)</h3>
+      <table id="table-referrers">
+        <thead><tr><th>Referrer</th><th>Views</th><th>Uniques</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>Top paths (latest)</h3>
+      <table id="table-paths">
+        <thead><tr><th>Path</th><th>Views</th><th>Uniques</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>Release downloads</h3>
+      <table id="table-releases">
+        <thead><tr><th>Tag</th><th>Asset</th><th>Downloads</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="card">
+      <h3>Languages</h3>
+      <table id="table-languages">
+        <thead><tr><th>Language</th><th>Bytes</th><th>%</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer class="muted">
+    <span>Updated daily by GitHub Actions. Traffic data has a 14-day source window — historical values come from prior snapshots.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.DS_Store
+
+# SQLite is rebuilt from data/raw/ on every run
+data/db.sqlite
+data/db.sqlite-journal
