@@ -1,14 +1,1116 @@
 {
-  "generated_at": null,
-  "repos": {},
+  "generated_at": "2026-05-01T21:41:24.379100+00:00",
+  "repos": {
+    "OmarMusayev/Adneural": {
+      "clones": [
+        {
+          "count": 0,
+          "date": "2026-04-17",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-18",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-19",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-20",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-21",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-22",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-23",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-24",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-25",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-26",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-27",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-28",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-29",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-30",
+          "uniques": 0
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-01",
+          "forks": 0,
+          "open_issues": 2,
+          "stars": 6,
+          "watchers": 6
+        }
+      ],
+      "languages": [
+        {
+          "bytes": 868226,
+          "language": "TypeScript"
+        },
+        {
+          "bytes": 661401,
+          "language": "Python"
+        },
+        {
+          "bytes": 100583,
+          "language": "HTML"
+        },
+        {
+          "bytes": 9098,
+          "language": "CSS"
+        },
+        {
+          "bytes": 7134,
+          "language": "Shell"
+        },
+        {
+          "bytes": 292,
+          "language": "JavaScript"
+        }
+      ],
+      "meta": {
+        "archived": false,
+        "fork": false,
+        "forks": 0,
+        "language": "TypeScript",
+        "open_issues": 2,
+        "pushed_at": "2026-04-05T13:08:42Z",
+        "snap_date": "2026-05-01",
+        "stars": 6,
+        "watchers": 6
+      },
+      "paths": [
+        {
+          "count": 5,
+          "path": "/OmarMusayev/Adneural",
+          "title": "Overview",
+          "uniques": 4
+        },
+        {
+          "count": 1,
+          "path": "/OmarMusayev/Adneural/blob/2bc857309a012355c1f8443630258a94b8d5035b/docs/MIROFISH.md",
+          "title": "/blob/2bc857309a012355c1f8443630258a94b8d5035b/docs/MIROFISH.md",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/OmarMusayev/Adneural/commits/main",
+          "title": "/commits/main",
+          "uniques": 1
+        }
+      ],
+      "referrers": [
+        {
+          "count": 5,
+          "referrer": "github.com",
+          "uniques": 4
+        }
+      ],
+      "releases": [],
+      "views": [
+        {
+          "count": 0,
+          "date": "2026-04-17",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-18",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-19",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-20",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-21",
+          "uniques": 0
+        },
+        {
+          "count": 2,
+          "date": "2026-04-22",
+          "uniques": 2
+        },
+        {
+          "count": 0,
+          "date": "2026-04-23",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-24",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-25",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-26",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-27",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-28",
+          "uniques": 0
+        },
+        {
+          "count": 3,
+          "date": "2026-04-29",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-30",
+          "uniques": 0
+        }
+      ]
+    },
+    "OmarMusayev/ai-handwriting-generator": {
+      "clones": [
+        {
+          "count": 0,
+          "date": "2026-04-17",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-18",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-19",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-20",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-21",
+          "uniques": 1
+        },
+        {
+          "count": 2,
+          "date": "2026-04-22",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-23",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-24",
+          "uniques": 1
+        },
+        {
+          "count": 11,
+          "date": "2026-04-25",
+          "uniques": 6
+        },
+        {
+          "count": 0,
+          "date": "2026-04-26",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-27",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-28",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-29",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "date": "2026-04-30",
+          "uniques": 1
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-01",
+          "forks": 0,
+          "open_issues": 0,
+          "stars": 7,
+          "watchers": 7
+        }
+      ],
+      "languages": [
+        {
+          "bytes": 478241,
+          "language": "Python"
+        },
+        {
+          "bytes": 19809,
+          "language": "JavaScript"
+        },
+        {
+          "bytes": 14574,
+          "language": "CSS"
+        },
+        {
+          "bytes": 12036,
+          "language": "Roff"
+        },
+        {
+          "bytes": 9033,
+          "language": "PowerShell"
+        },
+        {
+          "bytes": 4558,
+          "language": "HTML"
+        },
+        {
+          "bytes": 3221,
+          "language": "Shell"
+        },
+        {
+          "bytes": 379,
+          "language": "Dockerfile"
+        }
+      ],
+      "meta": {
+        "archived": false,
+        "fork": false,
+        "forks": 0,
+        "language": "Python",
+        "open_issues": 0,
+        "pushed_at": "2026-03-20T06:42:04Z",
+        "snap_date": "2026-05-01",
+        "stars": 7,
+        "watchers": 7
+      },
+      "paths": [
+        {
+          "count": 7,
+          "path": "/OmarMusayev/ai-handwriting-generator",
+          "title": "Overview",
+          "uniques": 4
+        },
+        {
+          "count": 2,
+          "path": "/OmarMusayev/ai-handwriting-generator/stargazers",
+          "title": "/stargazers",
+          "uniques": 1
+        }
+      ],
+      "referrers": [
+        {
+          "count": 5,
+          "referrer": "github.com",
+          "uniques": 2
+        },
+        {
+          "count": 1,
+          "referrer": "Google",
+          "uniques": 1
+        }
+      ],
+      "releases": [],
+      "views": [
+        {
+          "count": 0,
+          "date": "2026-04-17",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-18",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-19",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-20",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-21",
+          "uniques": 0
+        },
+        {
+          "count": 2,
+          "date": "2026-04-22",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-23",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-24",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-25",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-26",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "date": "2026-04-27",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-28",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-29",
+          "uniques": 1
+        },
+        {
+          "count": 3,
+          "date": "2026-04-30",
+          "uniques": 1
+        }
+      ]
+    },
+    "OmarMusayev/github-tracker": {
+      "clones": [
+        {
+          "count": 0,
+          "date": "2026-04-18",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-19",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-20",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-21",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-22",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-23",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-24",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-25",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-26",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-27",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-28",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-29",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-30",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-05-01",
+          "uniques": 0
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-01",
+          "forks": 0,
+          "open_issues": 0,
+          "stars": 0,
+          "watchers": 0
+        }
+      ],
+      "languages": [
+        {
+          "bytes": 14026,
+          "language": "Python"
+        }
+      ],
+      "meta": {
+        "archived": false,
+        "fork": false,
+        "forks": 0,
+        "language": "Python",
+        "open_issues": 0,
+        "pushed_at": "2026-05-01T21:40:57Z",
+        "snap_date": "2026-05-01",
+        "stars": 0,
+        "watchers": 0
+      },
+      "paths": [],
+      "referrers": [],
+      "releases": [],
+      "views": [
+        {
+          "count": 0,
+          "date": "2026-04-18",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-19",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-20",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-21",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-22",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-23",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-24",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-25",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-26",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-27",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-28",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-29",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-30",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-05-01",
+          "uniques": 0
+        }
+      ]
+    },
+    "OmarMusayev/puzzlesolver": {
+      "clones": [
+        {
+          "count": 0,
+          "date": "2026-04-17",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-04-18",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-19",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-20",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-21",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-22",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-23",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-24",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-25",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-26",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-27",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-28",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-29",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-30",
+          "uniques": 0
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-01",
+          "forks": 1,
+          "open_issues": 0,
+          "stars": 7,
+          "watchers": 7
+        }
+      ],
+      "languages": [
+        {
+          "bytes": 1488264,
+          "language": "Jupyter Notebook"
+        }
+      ],
+      "meta": {
+        "archived": false,
+        "fork": false,
+        "forks": 1,
+        "language": "Jupyter Notebook",
+        "open_issues": 0,
+        "pushed_at": "2023-08-03T23:59:41Z",
+        "snap_date": "2026-05-01",
+        "stars": 7,
+        "watchers": 7
+      },
+      "paths": [
+        {
+          "count": 84,
+          "path": "/OmarMusayev/puzzlesolver",
+          "title": "Overview",
+          "uniques": 72
+        },
+        {
+          "count": 10,
+          "path": "/OmarMusayev/puzzlesolver/blob/main/puzzles.ipynb",
+          "title": "/blob/main/puzzles.ipynb",
+          "uniques": 6
+        },
+        {
+          "count": 2,
+          "path": "/OmarMusayev/puzzlesolver/issues",
+          "title": "/issues",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "path": "/OmarMusayev/puzzlesolver/tree/main",
+          "title": "/tree/main",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/OmarMusayev/puzzlesolver/actions",
+          "title": "/actions",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/OmarMusayev/puzzlesolver/projects",
+          "title": "/projects",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/OmarMusayev/puzzlesolver/pulse",
+          "title": "/pulse",
+          "uniques": 1
+        }
+      ],
+      "referrers": [
+        {
+          "count": 85,
+          "referrer": "Google",
+          "uniques": 59
+        },
+        {
+          "count": 1,
+          "referrer": "github.com",
+          "uniques": 1
+        }
+      ],
+      "releases": [],
+      "views": [
+        {
+          "count": 4,
+          "date": "2026-04-17",
+          "uniques": 4
+        },
+        {
+          "count": 18,
+          "date": "2026-04-18",
+          "uniques": 7
+        },
+        {
+          "count": 7,
+          "date": "2026-04-19",
+          "uniques": 6
+        },
+        {
+          "count": 8,
+          "date": "2026-04-20",
+          "uniques": 8
+        },
+        {
+          "count": 1,
+          "date": "2026-04-21",
+          "uniques": 1
+        },
+        {
+          "count": 11,
+          "date": "2026-04-22",
+          "uniques": 9
+        },
+        {
+          "count": 5,
+          "date": "2026-04-23",
+          "uniques": 4
+        },
+        {
+          "count": 6,
+          "date": "2026-04-24",
+          "uniques": 5
+        },
+        {
+          "count": 16,
+          "date": "2026-04-25",
+          "uniques": 11
+        },
+        {
+          "count": 5,
+          "date": "2026-04-26",
+          "uniques": 5
+        },
+        {
+          "count": 3,
+          "date": "2026-04-27",
+          "uniques": 3
+        },
+        {
+          "count": 7,
+          "date": "2026-04-28",
+          "uniques": 4
+        },
+        {
+          "count": 6,
+          "date": "2026-04-29",
+          "uniques": 4
+        },
+        {
+          "count": 4,
+          "date": "2026-04-30",
+          "uniques": 4
+        }
+      ]
+    },
+    "OmarMusayev/terminaltui": {
+      "clones": [
+        {
+          "count": 1,
+          "date": "2026-04-17",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-18",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-19",
+          "uniques": 0
+        },
+        {
+          "count": 2,
+          "date": "2026-04-20",
+          "uniques": 2
+        },
+        {
+          "count": 0,
+          "date": "2026-04-21",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-22",
+          "uniques": 0
+        },
+        {
+          "count": 17,
+          "date": "2026-04-23",
+          "uniques": 5
+        },
+        {
+          "count": 5,
+          "date": "2026-04-24",
+          "uniques": 5
+        },
+        {
+          "count": 20,
+          "date": "2026-04-25",
+          "uniques": 18
+        },
+        {
+          "count": 4,
+          "date": "2026-04-26",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "date": "2026-04-27",
+          "uniques": 1
+        },
+        {
+          "count": 42,
+          "date": "2026-04-28",
+          "uniques": 10
+        },
+        {
+          "count": 85,
+          "date": "2026-04-29",
+          "uniques": 25
+        },
+        {
+          "count": 18,
+          "date": "2026-04-30",
+          "uniques": 6
+        }
+      ],
+      "history": [
+        {
+          "date": "2026-05-01",
+          "forks": 1,
+          "open_issues": 0,
+          "stars": 29,
+          "watchers": 29
+        }
+      ],
+      "languages": [
+        {
+          "bytes": 1953129,
+          "language": "TypeScript"
+        },
+        {
+          "bytes": 66113,
+          "language": "HTML"
+        },
+        {
+          "bytes": 16769,
+          "language": "JavaScript"
+        }
+      ],
+      "meta": {
+        "archived": false,
+        "fork": false,
+        "forks": 1,
+        "language": "TypeScript",
+        "open_issues": 0,
+        "pushed_at": "2026-04-29T03:24:23Z",
+        "snap_date": "2026-05-01",
+        "stars": 29,
+        "watchers": 29
+      },
+      "paths": [
+        {
+          "count": 43,
+          "path": "/OmarMusayev/terminaltui",
+          "title": "Overview",
+          "uniques": 23
+        },
+        {
+          "count": 3,
+          "path": "/OmarMusayev/terminaltui/blob/main/assets/recordings/hero.gif",
+          "title": "/blob/main/assets/recordings/hero.gif",
+          "uniques": 3
+        },
+        {
+          "count": 3,
+          "path": "/OmarMusayev/terminaltui/stargazers",
+          "title": "/stargazers",
+          "uniques": 1
+        },
+        {
+          "count": 2,
+          "path": "/OmarMusayev/terminaltui/blob/main/README.md",
+          "title": "/blob/main/README.md",
+          "uniques": 1
+        },
+        {
+          "count": 2,
+          "path": "/OmarMusayev/terminaltui/issues",
+          "title": "/issues",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "path": "/OmarMusayev/terminaltui/pulls",
+          "title": "/pulls",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "path": "/OmarMusayev/terminaltui/tree/main/demo",
+          "title": "/tree/main/demo",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/OmarMusayev/terminaltui/blob/main/claude/SKILL.md",
+          "title": "/blob/main/claude/SKILL.md",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/OmarMusayev/terminaltui/graphs/traffic",
+          "title": "/graphs/traffic",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "path": "/OmarMusayev/terminaltui/pulse",
+          "title": "/pulse",
+          "uniques": 1
+        }
+      ],
+      "referrers": [
+        {
+          "count": 50,
+          "referrer": "github.com",
+          "uniques": 21
+        }
+      ],
+      "releases": [],
+      "views": [
+        {
+          "count": 4,
+          "date": "2026-04-17",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "date": "2026-04-18",
+          "uniques": 2
+        },
+        {
+          "count": 10,
+          "date": "2026-04-19",
+          "uniques": 6
+        },
+        {
+          "count": 0,
+          "date": "2026-04-20",
+          "uniques": 0
+        },
+        {
+          "count": 4,
+          "date": "2026-04-21",
+          "uniques": 4
+        },
+        {
+          "count": 8,
+          "date": "2026-04-22",
+          "uniques": 2
+        },
+        {
+          "count": 4,
+          "date": "2026-04-23",
+          "uniques": 4
+        },
+        {
+          "count": 7,
+          "date": "2026-04-24",
+          "uniques": 3
+        },
+        {
+          "count": 1,
+          "date": "2026-04-25",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-04-26",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-04-27",
+          "uniques": 0
+        },
+        {
+          "count": 13,
+          "date": "2026-04-28",
+          "uniques": 3
+        },
+        {
+          "count": 11,
+          "date": "2026-04-29",
+          "uniques": 5
+        },
+        {
+          "count": 6,
+          "date": "2026-04-30",
+          "uniques": 2
+        }
+      ]
+    }
+  },
   "totals": {
-    "repo_count": 0,
-    "total_stars": 0,
-    "total_forks": 0,
-    "total_watchers": 0,
-    "clones_30d": 0,
-    "views_30d": 0,
-    "unique_visitors_30d": 0,
-    "unique_cloners_30d": 0
+    "clones_30d": 215,
+    "repo_count": 5,
+    "total_forks": 2,
+    "total_stars": 49,
+    "total_watchers": 49,
+    "unique_cloners_30d": 88,
+    "unique_visitors_30d": 120,
+    "views_30d": 187
   }
 }
