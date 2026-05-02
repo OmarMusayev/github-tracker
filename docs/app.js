@@ -5,6 +5,25 @@ const charts = {};
 
 const fmt = (n) => (n == null ? "—" : Number(n).toLocaleString());
 
+const fmtShortDate = (s) => {
+  if (!s) return "";
+  const [y, m, d] = s.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, d)).toLocaleDateString(undefined, {
+    month: "short",
+    day: "numeric",
+  });
+};
+
+const minDateAcross = (repos, pick) => {
+  let min = null;
+  for (const r of Object.values(repos || {})) {
+    for (const row of pick(r) || []) {
+      if (row && row.date && (!min || row.date < min)) min = row.date;
+    }
+  }
+  return min;
+};
+
 async function load() {
   let r;
   try {
@@ -36,16 +55,24 @@ function showError(msg) {
 
 function renderTotals() {
   const t = SUMMARY.totals || {};
+  const repos = SUMMARY.repos || {};
   const delta = (n) =>
     n != null && n > 0
       ? `<span class="pos">+${fmt(n)}</span> last 30d`
       : "&nbsp;";
 
+  const trafficSince = minDateAcross(repos, (r) => [
+    ...(r.views || []),
+    ...(r.clones || []),
+  ]);
+  const npmSince = minDateAcross(repos, (r) => (r.npm && r.npm.daily) || []);
+  const since = (d) => (d ? `since ${fmtShortDate(d)}` : "all-time");
+
   const heroes = [
     { lbl: "stars", num: t.total_stars, delta: "" },
-    { lbl: "views — all-time", num: t.views_all_time, delta: delta(t.views_30d) },
-    { lbl: "clones — all-time", num: t.clones_all_time, delta: delta(t.clones_30d) },
-    { lbl: "npm downloads — all-time", num: t.npm_downloads_all_time, delta: delta(t.npm_downloads_30d) },
+    { lbl: `views — ${since(trafficSince)}`, num: t.views_all_time, delta: delta(t.views_30d) },
+    { lbl: `clones — ${since(trafficSince)}`, num: t.clones_all_time, delta: delta(t.clones_30d) },
+    { lbl: `npm downloads — ${since(npmSince)}`, num: t.npm_downloads_all_time, delta: delta(t.npm_downloads_30d) },
     { lbl: "repos tracked", num: t.repo_count, delta: "" },
   ];
 
@@ -145,8 +172,9 @@ function renderRepo() {
     document.getElementById("npm-pkg-name").innerHTML =
       `<a href="https://www.npmjs.com/package/${n.name}" target="_blank" rel="noopener">${escape(n.name)}</a>` +
       (n.latest_version ? `<span class="ver">v${escape(n.latest_version)}</span>` : "");
+    const npmStart = (n.daily || []).find((d) => d.date)?.date;
     document.getElementById("npm-stats").innerHTML = [
-      ["all-time", n.all_time],
+      [npmStart ? `since ${fmtShortDate(npmStart)}` : "all-time", n.all_time],
       ["last 30d", n.d30],
       ["last 7d", n.d7],
       ["versions", n.version_count],
