@@ -1,0 +1,351 @@
+{
+  "clones": {
+    "clones": [
+      {
+        "count": 0,
+        "timestamp": "2026-04-20T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-04-21T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-04-22T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-04-23T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-04-24T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-04-25T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-04-26T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-04-27T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-04-28T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-04-29T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-04-30T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-05-01T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-05-02T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-05-03T00:00:00Z",
+        "uniques": 1
+      }
+    ],
+    "count": 3,
+    "uniques": 3
+  },
+  "fetched_at": "2026-05-04T23:53:16.402429+00:00",
+  "full_name": "OmarMusayev/puzzlesolver",
+  "languages": {
+    "Jupyter Notebook": 1488264
+  },
+  "meta": {
+    "allow_auto_merge": false,
+    "allow_forking": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_squash_merge": true,
+    "allow_update_branch": false,
+    "archive_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/{archive_format}{/ref}",
+    "archived": false,
+    "assignees_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/assignees{/user}",
+    "blobs_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/git/blobs{/sha}",
+    "branches_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/branches{/branch}",
+    "clone_url": "https://github.com/OmarMusayev/puzzlesolver.git",
+    "collaborators_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/collaborators{/collaborator}",
+    "comments_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/comments{/number}",
+    "commits_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/commits{/sha}",
+    "compare_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/compare/{base}...{head}",
+    "contents_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/contents/{+path}",
+    "contributors_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/contributors",
+    "created_at": "2023-08-02T23:03:37Z",
+    "default_branch": "main",
+    "delete_branch_on_merge": false,
+    "deployments_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/deployments",
+    "description": "Puzzle Solver using AI ",
+    "disabled": false,
+    "downloads_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/downloads",
+    "events_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/events",
+    "fork": false,
+    "forks": 1,
+    "forks_count": 1,
+    "forks_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/forks",
+    "full_name": "OmarMusayev/puzzlesolver",
+    "git_commits_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/git/commits{/sha}",
+    "git_refs_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/git/refs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/git/tags{/sha}",
+    "git_url": "git://github.com/OmarMusayev/puzzlesolver.git",
+    "has_discussions": false,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_pull_requests": true,
+    "has_wiki": true,
+    "homepage": null,
+    "hooks_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/hooks",
+    "html_url": "https://github.com/OmarMusayev/puzzlesolver",
+    "id": 673997656,
+    "is_template": false,
+    "issue_comment_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/issues/comments{/number}",
+    "issue_events_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/issues/events{/number}",
+    "issues_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/issues{/number}",
+    "keys_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/keys{/key_id}",
+    "labels_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/labels{/name}",
+    "language": "Jupyter Notebook",
+    "languages_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/languages",
+    "license": null,
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "merges_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/merges",
+    "milestones_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/milestones{/number}",
+    "mirror_url": null,
+    "name": "puzzlesolver",
+    "network_count": 1,
+    "node_id": "R_kgDOKCxjWA",
+    "notifications_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/notifications{?since,all,participating}",
+    "open_issues": 0,
+    "open_issues_count": 0,
+    "owner": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/104903102?v=4",
+      "events_url": "https://api.github.com/users/OmarMusayev/events{/privacy}",
+      "followers_url": "https://api.github.com/users/OmarMusayev/followers",
+      "following_url": "https://api.github.com/users/OmarMusayev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OmarMusayev/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/OmarMusayev",
+      "id": 104903102,
+      "login": "OmarMusayev",
+      "node_id": "U_kgDOBkCxvg",
+      "organizations_url": "https://api.github.com/users/OmarMusayev/orgs",
+      "received_events_url": "https://api.github.com/users/OmarMusayev/received_events",
+      "repos_url": "https://api.github.com/users/OmarMusayev/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/OmarMusayev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OmarMusayev/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/OmarMusayev",
+      "user_view_type": "public"
+    },
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "pull": true,
+      "push": true,
+      "triage": true
+    },
+    "private": false,
+    "pull_request_creation_policy": "all",
+    "pulls_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/pulls{/number}",
+    "pushed_at": "2023-08-03T23:59:41Z",
+    "releases_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/releases{/id}",
+    "security_and_analysis": {
+      "dependabot_security_updates": {
+        "status": "disabled"
+      },
+      "secret_scanning": {
+        "status": "disabled"
+      },
+      "secret_scanning_non_provider_patterns": {
+        "status": "disabled"
+      },
+      "secret_scanning_push_protection": {
+        "status": "disabled"
+      },
+      "secret_scanning_validity_checks": {
+        "status": "disabled"
+      }
+    },
+    "size": 2801,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "ssh_url": "git@github.com:OmarMusayev/puzzlesolver.git",
+    "stargazers_count": 7,
+    "stargazers_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/stargazers",
+    "statuses_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/statuses/{sha}",
+    "subscribers_count": 1,
+    "subscribers_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/subscribers",
+    "subscription_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/subscription",
+    "svn_url": "https://github.com/OmarMusayev/puzzlesolver",
+    "tags_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/tags",
+    "teams_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/teams",
+    "temp_clone_token": "",
+    "topics": [],
+    "trees_url": "https://api.github.com/repos/OmarMusayev/puzzlesolver/git/trees{/sha}",
+    "updated_at": "2026-04-05T03:35:26Z",
+    "url": "https://api.github.com/repos/OmarMusayev/puzzlesolver",
+    "use_squash_pr_title_as_default": false,
+    "visibility": "public",
+    "watchers": 7,
+    "watchers_count": 7,
+    "web_commit_signoff_required": false
+  },
+  "paths": [
+    {
+      "count": 95,
+      "path": "/OmarMusayev/puzzlesolver",
+      "title": "Overview",
+      "uniques": 82
+    },
+    {
+      "count": 3,
+      "path": "/OmarMusayev/puzzlesolver/blob/main/puzzles.ipynb",
+      "title": "/blob/main/puzzles.ipynb",
+      "uniques": 3
+    },
+    {
+      "count": 2,
+      "path": "/OmarMusayev/puzzlesolver/issues",
+      "title": "/issues",
+      "uniques": 2
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/puzzlesolver/actions",
+      "title": "/actions",
+      "uniques": 1
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/puzzlesolver/projects",
+      "title": "/projects",
+      "uniques": 1
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/puzzlesolver/pulse",
+      "title": "/pulse",
+      "uniques": 1
+    }
+  ],
+  "referrers": [
+    {
+      "count": 84,
+      "referrer": "Google",
+      "uniques": 66
+    },
+    {
+      "count": 1,
+      "referrer": "github.com",
+      "uniques": 1
+    }
+  ],
+  "releases": [],
+  "views": {
+    "count": 103,
+    "uniques": 83,
+    "views": [
+      {
+        "count": 8,
+        "timestamp": "2026-04-20T00:00:00Z",
+        "uniques": 8
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-04-21T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 11,
+        "timestamp": "2026-04-22T00:00:00Z",
+        "uniques": 9
+      },
+      {
+        "count": 5,
+        "timestamp": "2026-04-23T00:00:00Z",
+        "uniques": 4
+      },
+      {
+        "count": 6,
+        "timestamp": "2026-04-24T00:00:00Z",
+        "uniques": 5
+      },
+      {
+        "count": 16,
+        "timestamp": "2026-04-25T00:00:00Z",
+        "uniques": 11
+      },
+      {
+        "count": 5,
+        "timestamp": "2026-04-26T00:00:00Z",
+        "uniques": 5
+      },
+      {
+        "count": 3,
+        "timestamp": "2026-04-27T00:00:00Z",
+        "uniques": 3
+      },
+      {
+        "count": 7,
+        "timestamp": "2026-04-28T00:00:00Z",
+        "uniques": 4
+      },
+      {
+        "count": 6,
+        "timestamp": "2026-04-29T00:00:00Z",
+        "uniques": 4
+      },
+      {
+        "count": 4,
+        "timestamp": "2026-04-30T00:00:00Z",
+        "uniques": 4
+      },
+      {
+        "count": 8,
+        "timestamp": "2026-05-01T00:00:00Z",
+        "uniques": 5
+      },
+      {
+        "count": 10,
+        "timestamp": "2026-05-02T00:00:00Z",
+        "uniques": 10
+      },
+      {
+        "count": 13,
+        "timestamp": "2026-05-03T00:00:00Z",
+        "uniques": 12
+      }
+    ]
+  }
+}
