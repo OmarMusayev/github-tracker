@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-12T23:58:41.694669+00:00",
+  "generated_at": "2026-05-13T23:57:01.006262+00:00",
   "repos": {
     "OmarMusayev/Adneural": {
       "all_time": {
-        "clones": 9,
-        "views": 8
+        "clones": 14,
+        "views": 10
       },
       "clones": [
         {
@@ -131,6 +131,11 @@
           "count": 0,
           "date": "2026-05-11",
           "uniques": 0
+        },
+        {
+          "count": 5,
+          "date": "2026-05-12",
+          "uniques": 5
         }
       ],
       "history": [
@@ -217,6 +222,13 @@
           "open_issues": 2,
           "stars": 6,
           "watchers": 6
+        },
+        {
+          "date": "2026-05-13",
+          "forks": 0,
+          "open_issues": 2,
+          "stars": 6,
+          "watchers": 6
         }
       ],
       "languages": [
@@ -252,17 +264,17 @@
         "language": "TypeScript",
         "open_issues": 2,
         "pushed_at": "2026-04-05T13:08:42Z",
-        "snap_date": "2026-05-12",
+        "snap_date": "2026-05-13",
         "stars": 6,
         "subscribers": 0,
         "watchers": 6
       },
       "paths": [
         {
-          "count": 3,
+          "count": 5,
           "path": "/OmarMusayev/Adneural",
           "title": "Overview",
-          "uniques": 2
+          "uniques": 3
         },
         {
           "count": 1,
@@ -272,6 +284,11 @@
         }
       ],
       "referrers": [
+        {
+          "count": 2,
+          "referrer": "devpost.com",
+          "uniques": 1
+        },
         {
           "count": 2,
           "referrer": "github.com",
@@ -404,6 +421,11 @@
           "count": 0,
           "date": "2026-05-11",
           "uniques": 0
+        },
+        {
+          "count": 2,
+          "date": "2026-05-12",
+          "uniques": 1
         }
       ]
     },
@@ -537,6 +559,11 @@
           "count": 0,
           "date": "2026-05-11",
           "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-05-12",
+          "uniques": 0
         }
       ],
       "history": [
@@ -623,6 +650,13 @@
           "open_issues": 0,
           "stars": 7,
           "watchers": 7
+        },
+        {
+          "date": "2026-05-13",
+          "forks": 0,
+          "open_issues": 0,
+          "stars": 7,
+          "watchers": 7
         }
       ],
       "languages": [
@@ -666,7 +700,7 @@
         "language": "Python",
         "open_issues": 0,
         "pushed_at": "2026-03-20T06:42:04Z",
-        "snap_date": "2026-05-12",
+        "snap_date": "2026-05-13",
         "stars": 7,
         "subscribers": 1,
         "watchers": 7
@@ -818,13 +852,18 @@
           "count": 0,
           "date": "2026-05-11",
           "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-05-12",
+          "uniques": 0
         }
       ]
     },
     "OmarMusayev/cf-reminders": {
       "all_time": {
-        "clones": 78,
-        "views": 4
+        "clones": 173,
+        "views": 5
       },
       "clones": [
         {
@@ -896,6 +935,11 @@
           "count": 78,
           "date": "2026-05-11",
           "uniques": 42
+        },
+        {
+          "count": 95,
+          "date": "2026-05-12",
+          "uniques": 51
         }
       ],
       "history": [
@@ -908,6 +952,13 @@
         },
         {
           "date": "2026-05-12",
+          "forks": 0,
+          "open_issues": 0,
+          "stars": 1,
+          "watchers": 1
+        },
+        {
+          "date": "2026-05-13",
           "forks": 0,
           "open_issues": 0,
           "stars": 1,
@@ -926,8 +977,8 @@
         "forks": 0,
         "language": "Python",
         "open_issues": 0,
-        "pushed_at": "2026-05-12T23:16:37Z",
-        "snap_date": "2026-05-12",
+        "pushed_at": "2026-05-13T23:19:48Z",
+        "snap_date": "2026-05-13",
         "stars": 1,
         "subscribers": 0,
         "watchers": 1
@@ -935,14 +986,14 @@
       "paths": [
         {
           "count": 2,
-          "path": "/OmarMusayev/cf-reminders/tree/main",
-          "title": "/tree/main",
-          "uniques": 1
-        },
-        {
-          "count": 1,
           "path": "/OmarMusayev/cf-reminders",
           "title": "Overview",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "path": "/OmarMusayev/cf-reminders/tree/main",
+          "title": "/tree/main",
           "uniques": 1
         },
         {
@@ -952,7 +1003,13 @@
           "uniques": 1
         }
       ],
-      "referrers": [],
+      "referrers": [
+        {
+          "count": 1,
+          "referrer": "github.com",
+          "uniques": 1
+        }
+      ],
       "releases": [],
       "views": [
         {
@@ -1024,12 +1081,17 @@
           "count": 4,
           "date": "2026-05-11",
           "uniques": 1
+        },
+        {
+          "count": 1,
+          "date": "2026-05-12",
+          "uniques": 1
         }
       ]
     },
     "OmarMusayev/github-tracker": {
       "all_time": {
-        "clones": 301,
+        "clones": 321,
         "views": 14
       },
       "clones": [
@@ -1152,6 +1214,11 @@
           "count": 6,
           "date": "2026-05-11",
           "uniques": 5
+        },
+        {
+          "count": 20,
+          "date": "2026-05-12",
+          "uniques": 12
         }
       ],
       "history": [
@@ -1238,6 +1305,13 @@
           "open_issues": 0,
           "stars": 0,
           "watchers": 0
+        },
+        {
+          "date": "2026-05-13",
+          "forks": 0,
+          "open_issues": 0,
+          "stars": 0,
+          "watchers": 0
         }
       ],
       "languages": [
@@ -1252,8 +1326,8 @@
         "forks": 0,
         "language": "Python",
         "open_issues": 0,
-        "pushed_at": "2026-05-11T23:57:00Z",
-        "snap_date": "2026-05-12",
+        "pushed_at": "2026-05-12T23:58:42Z",
+        "snap_date": "2026-05-13",
         "stars": 0,
         "subscribers": 0,
         "watchers": 0
@@ -1412,13 +1486,18 @@
           "count": 0,
           "date": "2026-05-11",
           "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-05-12",
+          "uniques": 0
         }
       ]
     },
     "OmarMusayev/puzzlesolver": {
       "all_time": {
         "clones": 4,
-        "views": 194
+        "views": 199
       },
       "clones": [
         {
@@ -1545,6 +1624,11 @@
           "count": 0,
           "date": "2026-05-11",
           "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-05-12",
+          "uniques": 0
         }
       ],
       "history": [
@@ -1631,6 +1715,13 @@
           "open_issues": 0,
           "stars": 7,
           "watchers": 7
+        },
+        {
+          "date": "2026-05-13",
+          "forks": 1,
+          "open_issues": 0,
+          "stars": 7,
+          "watchers": 7
         }
       ],
       "languages": [
@@ -1646,17 +1737,17 @@
         "language": "Jupyter Notebook",
         "open_issues": 0,
         "pushed_at": "2023-08-03T23:59:41Z",
-        "snap_date": "2026-05-12",
+        "snap_date": "2026-05-13",
         "stars": 7,
         "subscribers": 1,
         "watchers": 7
       },
       "paths": [
         {
-          "count": 97,
+          "count": 95,
           "path": "/OmarMusayev/puzzlesolver",
           "title": "Overview",
-          "uniques": 82
+          "uniques": 83
         },
         {
           "count": 8,
@@ -1685,7 +1776,7 @@
       ],
       "referrers": [
         {
-          "count": 96,
+          "count": 93,
           "referrer": "Google",
           "uniques": 73
         }
@@ -1816,13 +1907,18 @@
           "count": 8,
           "date": "2026-05-11",
           "uniques": 7
+        },
+        {
+          "count": 5,
+          "date": "2026-05-12",
+          "uniques": 4
         }
       ]
     },
     "OmarMusayev/terminaltui": {
       "all_time": {
         "clones": 238,
-        "views": 119
+        "views": 122
       },
       "clones": [
         {
@@ -1949,6 +2045,11 @@
           "count": 0,
           "date": "2026-05-11",
           "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-05-12",
+          "uniques": 0
         }
       ],
       "history": [
@@ -2035,6 +2136,13 @@
           "open_issues": 0,
           "stars": 31,
           "watchers": 31
+        },
+        {
+          "date": "2026-05-13",
+          "forks": 1,
+          "open_issues": 0,
+          "stars": 31,
+          "watchers": 31
         }
       ],
       "languages": [
@@ -2058,16 +2166,16 @@
         "language": "TypeScript",
         "open_issues": 0,
         "pushed_at": "2026-05-01T23:02:09Z",
-        "snap_date": "2026-05-12",
+        "snap_date": "2026-05-13",
         "stars": 31,
         "subscribers": 3,
         "watchers": 31
       },
       "npm": {
-        "all_time": 2409,
+        "all_time": 2416,
         "created_at": "2026-03-23T03:04:44.365Z",
-        "d30": 682,
-        "d7": 59,
+        "d30": 626,
+        "d7": 61,
         "daily": [
           {
             "date": "2026-03-23",
@@ -2271,6 +2379,10 @@
           },
           {
             "date": "2026-05-12",
+            "downloads": 7
+          },
+          {
+            "date": "2026-05-13",
             "downloads": 0
           }
         ],
@@ -2282,22 +2394,16 @@
       },
       "paths": [
         {
-          "count": 44,
+          "count": 37,
           "path": "/OmarMusayev/terminaltui",
           "title": "Overview",
           "uniques": 19
         },
         {
-          "count": 2,
+          "count": 3,
           "path": "/OmarMusayev/terminaltui/blob/main/assets/recordings/hero.gif",
           "title": "/blob/main/assets/recordings/hero.gif",
-          "uniques": 2
-        },
-        {
-          "count": 2,
-          "path": "/OmarMusayev/terminaltui/blob/main/claude/SKILL.md",
-          "title": "/blob/main/claude/SKILL.md",
-          "uniques": 2
+          "uniques": 3
         },
         {
           "count": 2,
@@ -2307,15 +2413,21 @@
         },
         {
           "count": 2,
+          "path": "/OmarMusayev/terminaltui/issues",
+          "title": "/issues",
+          "uniques": 2
+        },
+        {
+          "count": 2,
           "path": "/OmarMusayev/terminaltui/releases/tag/v1.6.0",
           "title": "/releases/tag/v1.6.0",
           "uniques": 2
         },
         {
-          "count": 2,
-          "path": "/OmarMusayev/terminaltui/tree/main/claude",
-          "title": "/tree/main/claude",
-          "uniques": 2
+          "count": 1,
+          "path": "/OmarMusayev/terminaltui/blob/main/claude/SKILL.md",
+          "title": "/blob/main/claude/SKILL.md",
+          "uniques": 1
         },
         {
           "count": 1,
@@ -2344,7 +2456,7 @@
       ],
       "referrers": [
         {
-          "count": 55,
+          "count": 48,
           "referrer": "github.com",
           "uniques": 18
         }
@@ -2475,26 +2587,31 @@
           "count": 9,
           "date": "2026-05-11",
           "uniques": 8
+        },
+        {
+          "count": 3,
+          "date": "2026-05-12",
+          "uniques": 2
         }
       ]
     }
   },
   "totals": {
-    "clones_30d": 653,
-    "clones_all_time": 653,
-    "npm_downloads_30d": 682,
-    "npm_downloads_7d": 59,
-    "npm_downloads_all_time": 2409,
+    "clones_30d": 773,
+    "clones_all_time": 773,
+    "npm_downloads_30d": 626,
+    "npm_downloads_7d": 61,
+    "npm_downloads_all_time": 2416,
     "npm_packages_count": 1,
     "repo_count": 6,
     "total_forks": 2,
     "total_stars": 52,
     "total_watchers": 5,
-    "unique_cloners_30d": 323,
-    "unique_cloners_all_time": 323,
-    "unique_visitors_30d": 225,
-    "unique_visitors_all_time": 225,
-    "views_30d": 349,
-    "views_all_time": 349
+    "unique_cloners_30d": 391,
+    "unique_cloners_all_time": 391,
+    "unique_visitors_30d": 233,
+    "unique_visitors_all_time": 233,
+    "views_30d": 360,
+    "views_all_time": 360
   }
 }
