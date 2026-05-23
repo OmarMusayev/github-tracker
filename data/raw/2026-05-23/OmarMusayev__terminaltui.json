@@ -3,11 +3,6 @@
     "clones": [
       {
         "count": 0,
-        "timestamp": "2026-05-08T00:00:00Z",
-        "uniques": 0
-      },
-      {
-        "count": 0,
         "timestamp": "2026-05-09T00:00:00Z",
         "uniques": 0
       },
@@ -70,12 +65,17 @@
         "count": 22,
         "timestamp": "2026-05-21T00:00:00Z",
         "uniques": 7
+      },
+      {
+        "count": 2,
+        "timestamp": "2026-05-22T00:00:00Z",
+        "uniques": 2
       }
     ],
-    "count": 269,
-    "uniques": 98
+    "count": 271,
+    "uniques": 100
   },
-  "fetched_at": "2026-05-23T00:05:56.835907+00:00",
+  "fetched_at": "2026-05-23T23:56:26.722914+00:00",
   "full_name": "OmarMusayev/terminaltui",
   "languages": {
     "HTML": 73120,
@@ -313,7 +313,7 @@
       "2026-05-19": 1,
       "2026-05-20": 9,
       "2026-05-21": 21,
-      "2026-05-22": 0,
+      "2026-05-22": 2,
       "2026-05-23": 0
     },
     "description": "Framework for building interactive terminal websites and apps \u2014 30+ components, grid system, spatial navigation, themes, ASCII art, file-based routing",
@@ -347,16 +347,10 @@
   },
   "paths": [
     {
-      "count": 49,
+      "count": 47,
       "path": "/OmarMusayev/terminaltui",
       "title": "Overview",
-      "uniques": 27
-    },
-    {
-      "count": 3,
-      "path": "/OmarMusayev/terminaltui/issues",
-      "title": "/issues",
-      "uniques": 3
+      "uniques": 26
     },
     {
       "count": 3,
@@ -372,14 +366,14 @@
     },
     {
       "count": 2,
-      "path": "/OmarMusayev/terminaltui/blob/main/assets/recordings/hero.gif",
-      "title": "/blob/main/assets/recordings/hero.gif",
+      "path": "/OmarMusayev/terminaltui/issues",
+      "title": "/issues",
       "uniques": 2
     },
     {
       "count": 2,
-      "path": "/OmarMusayev/terminaltui/deployments/github-pages",
-      "title": "/deployments/github-pages",
+      "path": "/OmarMusayev/terminaltui/pulls",
+      "title": "/pulls",
       "uniques": 2
     },
     {
@@ -396,22 +390,28 @@
     },
     {
       "count": 1,
+      "path": "/OmarMusayev/terminaltui/blob/main/assets/recordings/hero.gif",
+      "title": "/blob/main/assets/recordings/hero.gif",
+      "uniques": 1
+    },
+    {
+      "count": 1,
       "path": "/OmarMusayev/terminaltui/blob/main/docs/getting-started.md",
       "title": "/blob/main/docs/getting-started.md",
       "uniques": 1
     },
     {
       "count": 1,
-      "path": "/OmarMusayev/terminaltui/commit/c1146f4dfa707884c4804fd1ba34e16de67dc5ba",
-      "title": "/commit/c1146f4dfa707884c4804fd1ba34e16de67dc5ba",
+      "path": "/OmarMusayev/terminaltui/deployments/github-pages",
+      "title": "/deployments/github-pages",
       "uniques": 1
     }
   ],
   "referrers": [
     {
-      "count": 42,
+      "count": 38,
       "referrer": "github.com",
-      "uniques": 22
+      "uniques": 21
     },
     {
       "count": 7,
@@ -1165,14 +1165,9 @@
     }
   ],
   "views": {
-    "count": 83,
-    "uniques": 38,
+    "count": 77,
+    "uniques": 37,
     "views": [
-      {
-        "count": 8,
-        "timestamp": "2026-05-08T00:00:00Z",
-        "uniques": 3
-      },
       {
         "count": 0,
         "timestamp": "2026-05-09T00:00:00Z",
@@ -1237,6 +1232,11 @@
         "count": 0,
         "timestamp": "2026-05-21T00:00:00Z",
         "uniques": 0
+      },
+      {
+        "count": 2,
+        "timestamp": "2026-05-22T00:00:00Z",
+        "uniques": 2
       }
     ]
   }
