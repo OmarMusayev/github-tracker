@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 5,
-        "timestamp": "2026-05-12T00:00:00Z",
-        "uniques": 5
-      },
-      {
         "count": 1,
         "timestamp": "2026-05-13T00:00:00Z",
         "uniques": 1
@@ -70,12 +65,17 @@
         "count": 0,
         "timestamp": "2026-05-25T00:00:00Z",
         "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-05-26T00:00:00Z",
+        "uniques": 0
       }
     ],
-    "count": 13,
-    "uniques": 13
+    "count": 8,
+    "uniques": 8
   },
-  "fetched_at": "2026-05-27T00:02:46.308894+00:00",
+  "fetched_at": "2026-05-27T23:59:13.574035+00:00",
   "full_name": "OmarMusayev/Adneural",
   "languages": {
     "CSS": 9098,
@@ -234,10 +234,10 @@
   },
   "paths": [
     {
-      "count": 4,
+      "count": 2,
       "path": "/OmarMusayev/Adneural",
       "title": "Overview",
-      "uniques": 3
+      "uniques": 2
     },
     {
       "count": 2,
@@ -269,23 +269,13 @@
       "count": 6,
       "referrer": "github.com",
       "uniques": 2
-    },
-    {
-      "count": 2,
-      "referrer": "devpost.com",
-      "uniques": 1
     }
   ],
   "releases": [],
   "views": {
-    "count": 9,
-    "uniques": 4,
+    "count": 7,
+    "uniques": 3,
     "views": [
-      {
-        "count": 2,
-        "timestamp": "2026-05-12T00:00:00Z",
-        "uniques": 1
-      },
       {
         "count": 3,
         "timestamp": "2026-05-13T00:00:00Z",
@@ -349,6 +339,11 @@
       {
         "count": 0,
         "timestamp": "2026-05-25T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-05-26T00:00:00Z",
         "uniques": 0
       }
     ]

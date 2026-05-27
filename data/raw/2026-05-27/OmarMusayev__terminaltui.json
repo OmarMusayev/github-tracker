@@ -3,11 +3,6 @@
     "clones": [
       {
         "count": 0,
-        "timestamp": "2026-05-12T00:00:00Z",
-        "uniques": 0
-      },
-      {
-        "count": 0,
         "timestamp": "2026-05-13T00:00:00Z",
         "uniques": 0
       },
@@ -70,12 +65,17 @@
         "count": 0,
         "timestamp": "2026-05-25T00:00:00Z",
         "uniques": 0
+      },
+      {
+        "count": 6,
+        "timestamp": "2026-05-26T00:00:00Z",
+        "uniques": 5
       }
     ],
-    "count": 273,
-    "uniques": 101
+    "count": 279,
+    "uniques": 106
   },
-  "fetched_at": "2026-05-27T00:02:58.654419+00:00",
+  "fetched_at": "2026-05-27T23:59:20.373431+00:00",
   "full_name": "OmarMusayev/terminaltui",
   "languages": {
     "HTML": 73120,
@@ -317,7 +317,7 @@
       "2026-05-23": 0,
       "2026-05-24": 2,
       "2026-05-25": 18,
-      "2026-05-26": 0,
+      "2026-05-26": 2,
       "2026-05-27": 0
     },
     "description": "Framework for building interactive terminal websites and apps \u2014 30+ components, grid system, spatial navigation, themes, ASCII art, file-based routing",
@@ -351,10 +351,10 @@
   },
   "paths": [
     {
-      "count": 49,
+      "count": 48,
       "path": "/OmarMusayev/terminaltui",
       "title": "Overview",
-      "uniques": 27
+      "uniques": 26
     },
     {
       "count": 5,
@@ -363,10 +363,10 @@
       "uniques": 2
     },
     {
-      "count": 4,
+      "count": 3,
       "path": "/OmarMusayev/terminaltui/issues",
       "title": "/issues",
-      "uniques": 3
+      "uniques": 2
     },
     {
       "count": 3,
@@ -413,9 +413,9 @@
   ],
   "referrers": [
     {
-      "count": 63,
+      "count": 61,
       "referrer": "github.com",
-      "uniques": 20
+      "uniques": 19
     },
     {
       "count": 15,
@@ -1169,14 +1169,9 @@
     }
   ],
   "views": {
-    "count": 108,
-    "uniques": 31,
+    "count": 105,
+    "uniques": 29,
     "views": [
-      {
-        "count": 3,
-        "timestamp": "2026-05-12T00:00:00Z",
-        "uniques": 2
-      },
       {
         "count": 2,
         "timestamp": "2026-05-13T00:00:00Z",
@@ -1241,6 +1236,11 @@
         "count": 35,
         "timestamp": "2026-05-25T00:00:00Z",
         "uniques": 2
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-05-26T00:00:00Z",
+        "uniques": 0
       }
     ]
   }

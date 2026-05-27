@@ -3,11 +3,6 @@
     "clones": [
       {
         "count": 0,
-        "timestamp": "2026-05-12T00:00:00Z",
-        "uniques": 0
-      },
-      {
-        "count": 0,
         "timestamp": "2026-05-13T00:00:00Z",
         "uniques": 0
       },
@@ -70,12 +65,17 @@
         "count": 2,
         "timestamp": "2026-05-25T00:00:00Z",
         "uniques": 2
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-05-26T00:00:00Z",
+        "uniques": 0
       }
     ],
     "count": 38,
     "uniques": 28
   },
-  "fetched_at": "2026-05-27T00:02:47.807989+00:00",
+  "fetched_at": "2026-05-27T23:59:15.039230+00:00",
   "full_name": "OmarMusayev/ai-handwriting-generator",
   "languages": {
     "CSS": 19971,
@@ -280,11 +280,6 @@
     "views": [
       {
         "count": 0,
-        "timestamp": "2026-05-12T00:00:00Z",
-        "uniques": 0
-      },
-      {
-        "count": 0,
         "timestamp": "2026-05-13T00:00:00Z",
         "uniques": 0
       },
@@ -346,6 +341,11 @@
       {
         "count": 0,
         "timestamp": "2026-05-25T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-05-26T00:00:00Z",
         "uniques": 0
       }
     ]
