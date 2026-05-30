@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 16,
-        "timestamp": "2026-05-15T00:00:00Z",
-        "uniques": 12
-      },
-      {
         "count": 4,
         "timestamp": "2026-05-16T00:00:00Z",
         "uniques": 4
@@ -70,12 +65,17 @@
         "count": 1,
         "timestamp": "2026-05-28T00:00:00Z",
         "uniques": 1
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-05-29T00:00:00Z",
+        "uniques": 1
       }
     ],
-    "count": 62,
-    "uniques": 36
+    "count": 47,
+    "uniques": 27
   },
-  "fetched_at": "2026-05-30T00:08:50.165433+00:00",
+  "fetched_at": "2026-05-30T23:59:12.058042+00:00",
   "full_name": "OmarMusayev/terminaltui",
   "languages": {
     "HTML": 73120,
@@ -320,7 +320,7 @@
       "2026-05-26": 2,
       "2026-05-27": 0,
       "2026-05-28": 0,
-      "2026-05-29": 0,
+      "2026-05-29": 3,
       "2026-05-30": 0
     },
     "description": "Framework for building interactive terminal websites and apps \u2014 30+ components, grid system, spatial navigation, themes, ASCII art, file-based routing",
@@ -354,16 +354,16 @@
   },
   "paths": [
     {
-      "count": 42,
+      "count": 39,
       "path": "/OmarMusayev/terminaltui",
       "title": "Overview",
-      "uniques": 23
+      "uniques": 22
     },
     {
-      "count": 5,
+      "count": 6,
       "path": "/OmarMusayev/terminaltui/blob/main/docs/getting-started.md",
       "title": "/blob/main/docs/getting-started.md",
-      "uniques": 2
+      "uniques": 3
     },
     {
       "count": 3,
@@ -373,20 +373,14 @@
     },
     {
       "count": 3,
-      "path": "/OmarMusayev/terminaltui/tree/main/claude",
-      "title": "/tree/main/claude",
+      "path": "/OmarMusayev/terminaltui/pulls",
+      "title": "/pulls",
       "uniques": 2
     },
     {
       "count": 3,
-      "path": "/OmarMusayev/terminaltui/upload/main",
-      "title": "/upload/main",
-      "uniques": 1
-    },
-    {
-      "count": 2,
-      "path": "/OmarMusayev/terminaltui/pulls",
-      "title": "/pulls",
+      "path": "/OmarMusayev/terminaltui/tree/main/claude",
+      "title": "/tree/main/claude",
       "uniques": 2
     },
     {
@@ -412,16 +406,22 @@
       "path": "/OmarMusayev/terminaltui/blob/main/docs/serve.md",
       "title": "/blob/main/docs/serve.md",
       "uniques": 1
+    },
+    {
+      "count": 2,
+      "path": "/OmarMusayev/terminaltui/commit/0e78f5b7bd4495602461ee96c9066e888f1e2928",
+      "title": "/commit/0e78f5b7bd4495602461ee96c9066e888f1e2928",
+      "uniques": 1
     }
   ],
   "referrers": [
     {
-      "count": 67,
+      "count": 63,
       "referrer": "github.com",
       "uniques": 18
     },
     {
-      "count": 15,
+      "count": 14,
       "referrer": "terminaltui.dev",
       "uniques": 7
     }
@@ -1167,14 +1167,9 @@
     }
   ],
   "views": {
-    "count": 100,
+    "count": 94,
     "uniques": 25,
     "views": [
-      {
-        "count": 14,
-        "timestamp": "2026-05-15T00:00:00Z",
-        "uniques": 2
-      },
       {
         "count": 7,
         "timestamp": "2026-05-16T00:00:00Z",
@@ -1239,6 +1234,11 @@
         "count": 4,
         "timestamp": "2026-05-28T00:00:00Z",
         "uniques": 2
+      },
+      {
+        "count": 8,
+        "timestamp": "2026-05-29T00:00:00Z",
+        "uniques": 3
       }
     ]
   }

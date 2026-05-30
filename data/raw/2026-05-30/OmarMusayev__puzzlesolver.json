@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 5,
-        "timestamp": "2026-05-15T00:00:00Z",
-        "uniques": 4
-      },
-      {
         "count": 0,
         "timestamp": "2026-05-16T00:00:00Z",
         "uniques": 0
@@ -70,12 +65,17 @@
         "count": 0,
         "timestamp": "2026-05-28T00:00:00Z",
         "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-05-29T00:00:00Z",
+        "uniques": 0
       }
     ],
-    "count": 7,
-    "uniques": 6
+    "count": 2,
+    "uniques": 2
   },
-  "fetched_at": "2026-05-30T00:08:49.356501+00:00",
+  "fetched_at": "2026-05-30T23:59:10.624350+00:00",
   "full_name": "OmarMusayev/puzzlesolver",
   "languages": {
     "Jupyter Notebook": 1488264
@@ -223,16 +223,16 @@
   },
   "paths": [
     {
-      "count": 89,
+      "count": 83,
       "path": "/OmarMusayev/puzzlesolver",
       "title": "Overview",
-      "uniques": 78
+      "uniques": 72
     },
     {
-      "count": 7,
+      "count": 5,
       "path": "/OmarMusayev/puzzlesolver/blob/main/puzzles.ipynb",
       "title": "/blob/main/puzzles.ipynb",
-      "uniques": 5
+      "uniques": 4
     },
     {
       "count": 3,
@@ -244,6 +244,12 @@
       "count": 3,
       "path": "/OmarMusayev/puzzlesolver/blob/285623778be9cb32b4f11325c3f49005dc2686b6/README.md",
       "title": "/blob/285623778be9cb32b4f11325c3f49005dc2686b6/README.md",
+      "uniques": 1
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/puzzlesolver/actions",
+      "title": "/actions",
       "uniques": 1
     },
     {
@@ -266,14 +272,14 @@
     },
     {
       "count": 1,
-      "path": "/OmarMusayev/puzzlesolver/fork",
-      "title": "/fork",
+      "path": "/OmarMusayev/puzzlesolver/compare",
+      "title": "/compare",
       "uniques": 1
     },
     {
       "count": 1,
-      "path": "/OmarMusayev/puzzlesolver/issues",
-      "title": "/issues",
+      "path": "/OmarMusayev/puzzlesolver/fork",
+      "title": "/fork",
       "uniques": 1
     }
   ],
@@ -281,7 +287,7 @@
     {
       "count": 83,
       "referrer": "Google",
-      "uniques": 70
+      "uniques": 66
     },
     {
       "count": 1,
@@ -291,14 +297,9 @@
   ],
   "releases": [],
   "views": {
-    "count": 107,
-    "uniques": 81,
+    "count": 103,
+    "uniques": 74,
     "views": [
-      {
-        "count": 13,
-        "timestamp": "2026-05-15T00:00:00Z",
-        "uniques": 12
-      },
       {
         "count": 6,
         "timestamp": "2026-05-16T00:00:00Z",
@@ -362,6 +363,11 @@
       {
         "count": 9,
         "timestamp": "2026-05-28T00:00:00Z",
+        "uniques": 5
+      },
+      {
+        "count": 9,
+        "timestamp": "2026-05-29T00:00:00Z",
         "uniques": 5
       }
     ]
