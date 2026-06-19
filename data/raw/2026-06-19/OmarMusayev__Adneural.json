@@ -1,0 +1,321 @@
+{
+  "clones": {
+    "clones": [
+      {
+        "count": 5,
+        "timestamp": "2026-06-04T00:00:00Z",
+        "uniques": 5
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-06-05T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-06-06T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-07T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-06-08T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-09T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-06-10T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-06-11T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-12T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-13T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-06-14T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 3,
+        "timestamp": "2026-06-15T00:00:00Z",
+        "uniques": 3
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-16T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-17T00:00:00Z",
+        "uniques": 0
+      }
+    ],
+    "count": 14,
+    "uniques": 14
+  },
+  "fetched_at": "2026-06-19T00:25:21.664266+00:00",
+  "full_name": "OmarMusayev/Adneural",
+  "languages": {
+    "CSS": 9098,
+    "HTML": 100583,
+    "JavaScript": 292,
+    "Python": 661401,
+    "Shell": 7134,
+    "TypeScript": 868226
+  },
+  "meta": {
+    "allow_auto_merge": false,
+    "allow_forking": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_squash_merge": true,
+    "allow_update_branch": false,
+    "archive_url": "https://api.github.com/repos/OmarMusayev/Adneural/{archive_format}{/ref}",
+    "archived": false,
+    "assignees_url": "https://api.github.com/repos/OmarMusayev/Adneural/assignees{/user}",
+    "blobs_url": "https://api.github.com/repos/OmarMusayev/Adneural/git/blobs{/sha}",
+    "branches_url": "https://api.github.com/repos/OmarMusayev/Adneural/branches{/branch}",
+    "clone_url": "https://github.com/OmarMusayev/Adneural.git",
+    "collaborators_url": "https://api.github.com/repos/OmarMusayev/Adneural/collaborators{/collaborator}",
+    "comments_url": "https://api.github.com/repos/OmarMusayev/Adneural/comments{/number}",
+    "commits_url": "https://api.github.com/repos/OmarMusayev/Adneural/commits{/sha}",
+    "compare_url": "https://api.github.com/repos/OmarMusayev/Adneural/compare/{base}...{head}",
+    "contents_url": "https://api.github.com/repos/OmarMusayev/Adneural/contents/{+path}",
+    "contributors_url": "https://api.github.com/repos/OmarMusayev/Adneural/contributors",
+    "created_at": "2026-04-04T04:05:33Z",
+    "default_branch": "main",
+    "delete_branch_on_merge": false,
+    "deployments_url": "https://api.github.com/repos/OmarMusayev/Adneural/deployments",
+    "description": null,
+    "disabled": false,
+    "downloads_url": "https://api.github.com/repos/OmarMusayev/Adneural/downloads",
+    "events_url": "https://api.github.com/repos/OmarMusayev/Adneural/events",
+    "fork": false,
+    "forks": 0,
+    "forks_count": 0,
+    "forks_url": "https://api.github.com/repos/OmarMusayev/Adneural/forks",
+    "full_name": "OmarMusayev/Adneural",
+    "git_commits_url": "https://api.github.com/repos/OmarMusayev/Adneural/git/commits{/sha}",
+    "git_refs_url": "https://api.github.com/repos/OmarMusayev/Adneural/git/refs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/OmarMusayev/Adneural/git/tags{/sha}",
+    "git_url": "git://github.com/OmarMusayev/Adneural.git",
+    "has_discussions": false,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_pull_requests": true,
+    "has_wiki": false,
+    "homepage": null,
+    "hooks_url": "https://api.github.com/repos/OmarMusayev/Adneural/hooks",
+    "html_url": "https://github.com/OmarMusayev/Adneural",
+    "id": 1200983630,
+    "is_template": false,
+    "issue_comment_url": "https://api.github.com/repos/OmarMusayev/Adneural/issues/comments{/number}",
+    "issue_events_url": "https://api.github.com/repos/OmarMusayev/Adneural/issues/events{/number}",
+    "issues_url": "https://api.github.com/repos/OmarMusayev/Adneural/issues{/number}",
+    "keys_url": "https://api.github.com/repos/OmarMusayev/Adneural/keys{/key_id}",
+    "labels_url": "https://api.github.com/repos/OmarMusayev/Adneural/labels{/name}",
+    "language": "TypeScript",
+    "languages_url": "https://api.github.com/repos/OmarMusayev/Adneural/languages",
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "node_id": "MDc6TGljZW5zZTEz",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit"
+    },
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "merges_url": "https://api.github.com/repos/OmarMusayev/Adneural/merges",
+    "milestones_url": "https://api.github.com/repos/OmarMusayev/Adneural/milestones{/number}",
+    "mirror_url": null,
+    "name": "Adneural",
+    "network_count": 0,
+    "node_id": "R_kgDOR5WOTg",
+    "notifications_url": "https://api.github.com/repos/OmarMusayev/Adneural/notifications{?since,all,participating}",
+    "open_issues": 2,
+    "open_issues_count": 2,
+    "owner": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/104903102?v=4",
+      "events_url": "https://api.github.com/users/OmarMusayev/events{/privacy}",
+      "followers_url": "https://api.github.com/users/OmarMusayev/followers",
+      "following_url": "https://api.github.com/users/OmarMusayev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OmarMusayev/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/OmarMusayev",
+      "id": 104903102,
+      "login": "OmarMusayev",
+      "node_id": "U_kgDOBkCxvg",
+      "organizations_url": "https://api.github.com/users/OmarMusayev/orgs",
+      "received_events_url": "https://api.github.com/users/OmarMusayev/received_events",
+      "repos_url": "https://api.github.com/users/OmarMusayev/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/OmarMusayev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OmarMusayev/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/OmarMusayev",
+      "user_view_type": "public"
+    },
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "pull": true,
+      "push": true,
+      "triage": true
+    },
+    "private": false,
+    "pull_request_creation_policy": "all",
+    "pulls_url": "https://api.github.com/repos/OmarMusayev/Adneural/pulls{/number}",
+    "pushed_at": "2026-04-05T13:08:42Z",
+    "releases_url": "https://api.github.com/repos/OmarMusayev/Adneural/releases{/id}",
+    "security_and_analysis": {
+      "dependabot_security_updates": {
+        "status": "disabled"
+      },
+      "secret_scanning": {
+        "status": "disabled"
+      },
+      "secret_scanning_non_provider_patterns": {
+        "status": "disabled"
+      },
+      "secret_scanning_push_protection": {
+        "status": "disabled"
+      },
+      "secret_scanning_validity_checks": {
+        "status": "disabled"
+      }
+    },
+    "size": 18074,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "ssh_url": "git@github.com:OmarMusayev/Adneural.git",
+    "stargazers_count": 6,
+    "stargazers_url": "https://api.github.com/repos/OmarMusayev/Adneural/stargazers",
+    "statuses_url": "https://api.github.com/repos/OmarMusayev/Adneural/statuses/{sha}",
+    "subscribers_count": 0,
+    "subscribers_url": "https://api.github.com/repos/OmarMusayev/Adneural/subscribers",
+    "subscription_url": "https://api.github.com/repos/OmarMusayev/Adneural/subscription",
+    "svn_url": "https://github.com/OmarMusayev/Adneural",
+    "tags_url": "https://api.github.com/repos/OmarMusayev/Adneural/tags",
+    "teams_url": "https://api.github.com/repos/OmarMusayev/Adneural/teams",
+    "temp_clone_token": "",
+    "topics": [],
+    "trees_url": "https://api.github.com/repos/OmarMusayev/Adneural/git/trees{/sha}",
+    "updated_at": "2026-04-11T00:48:20Z",
+    "url": "https://api.github.com/repos/OmarMusayev/Adneural",
+    "use_squash_pr_title_as_default": false,
+    "visibility": "public",
+    "watchers": 6,
+    "watchers_count": 6,
+    "web_commit_signoff_required": false
+  },
+  "paths": [
+    {
+      "count": 1,
+      "path": "/OmarMusayev/Adneural",
+      "title": "Overview",
+      "uniques": 1
+    }
+  ],
+  "referrers": [],
+  "releases": [],
+  "views": {
+    "count": 1,
+    "uniques": 1,
+    "views": [
+      {
+        "count": 0,
+        "timestamp": "2026-06-04T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-05T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-06T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-07T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-08T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-09T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-10T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-11T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-12T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-13T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-14T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-06-15T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-16T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-06-17T00:00:00Z",
+        "uniques": 0
+      }
+    ]
+  }
+}
