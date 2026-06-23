@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 2,
-        "timestamp": "2026-06-08T00:00:00Z",
-        "uniques": 2
-      },
-      {
         "count": 1,
         "timestamp": "2026-06-09T00:00:00Z",
         "uniques": 1
@@ -70,12 +65,17 @@
         "count": 0,
         "timestamp": "2026-06-21T00:00:00Z",
         "uniques": 0
+      },
+      {
+        "count": 4,
+        "timestamp": "2026-06-22T00:00:00Z",
+        "uniques": 1
       }
     ],
-    "count": 57,
-    "uniques": 23
+    "count": 59,
+    "uniques": 22
   },
-  "fetched_at": "2026-06-23T00:04:16.824287+00:00",
+  "fetched_at": "2026-06-23T23:55:01.237805+00:00",
   "full_name": "OmarMusayev/terminaltui",
   "languages": {
     "HTML": 73120,
@@ -209,7 +209,7 @@
     "squash_merge_commit_message": "COMMIT_MESSAGES",
     "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
     "ssh_url": "git@github.com:OmarMusayev/terminaltui.git",
-    "stargazers_count": 35,
+    "stargazers_count": 36,
     "stargazers_url": "https://api.github.com/repos/OmarMusayev/terminaltui/stargazers",
     "statuses_url": "https://api.github.com/repos/OmarMusayev/terminaltui/statuses/{sha}",
     "subscribers_count": 3,
@@ -242,12 +242,12 @@
       "typescript"
     ],
     "trees_url": "https://api.github.com/repos/OmarMusayev/terminaltui/git/trees{/sha}",
-    "updated_at": "2026-06-06T03:36:38Z",
+    "updated_at": "2026-06-23T06:11:43Z",
     "url": "https://api.github.com/repos/OmarMusayev/terminaltui",
     "use_squash_pr_title_as_default": false,
     "visibility": "public",
-    "watchers": 35,
-    "watchers_count": 35,
+    "watchers": 36,
+    "watchers_count": 36,
     "web_commit_signoff_required": false
   },
   "npm": {
@@ -344,7 +344,7 @@
       "2026-06-19": 3,
       "2026-06-20": 0,
       "2026-06-21": 0,
-      "2026-06-22": 0,
+      "2026-06-22": 1,
       "2026-06-23": 0
     },
     "description": "Framework for building interactive terminal websites and apps \u2014 30+ components, grid system, spatial navigation, themes, ASCII art, file-based routing",
@@ -379,16 +379,22 @@
   },
   "paths": [
     {
-      "count": 26,
+      "count": 27,
       "path": "/OmarMusayev/terminaltui",
       "title": "Overview",
       "uniques": 23
     },
     {
-      "count": 2,
+      "count": 3,
       "path": "/OmarMusayev/terminaltui/blob/main/assets/recordings/launch-hero-bg.gif",
       "title": "/blob/main/assets/recordings/launch-hero-bg.gif",
-      "uniques": 2
+      "uniques": 3
+    },
+    {
+      "count": 2,
+      "path": "/OmarMusayev/terminaltui/stargazers",
+      "title": "/stargazers",
+      "uniques": 1
     },
     {
       "count": 1,
@@ -416,6 +422,12 @@
     },
     {
       "count": 1,
+      "path": "/OmarMusayev/terminaltui/stargazers/you_know",
+      "title": "/stargazers/you_know",
+      "uniques": 1
+    },
+    {
+      "count": 1,
       "path": "/OmarMusayev/terminaltui/tree/main/demos",
       "title": "/tree/main/demos",
       "uniques": 1
@@ -425,24 +437,18 @@
       "path": "/OmarMusayev/terminaltui/tree/main/demos/developer-portfolio",
       "title": "/tree/main/demos/developer-portfolio",
       "uniques": 1
-    },
-    {
-      "count": 1,
-      "path": "/OmarMusayev/terminaltui/tree/main/demos/developer-portfolio/pages",
-      "title": "/tree/main/demos/developer-portfolio/pages",
-      "uniques": 1
     }
   ],
   "referrers": [
     {
-      "count": 28,
+      "count": 31,
       "referrer": "github.com",
-      "uniques": 18
+      "uniques": 19
     },
     {
-      "count": 2,
+      "count": 1,
       "referrer": "terminaltui.dev",
-      "uniques": 2
+      "uniques": 1
     }
   ],
   "releases": [
@@ -1186,14 +1192,9 @@
     }
   ],
   "views": {
-    "count": 35,
+    "count": 40,
     "uniques": 24,
     "views": [
-      {
-        "count": 2,
-        "timestamp": "2026-06-08T00:00:00Z",
-        "uniques": 2
-      },
       {
         "count": 1,
         "timestamp": "2026-06-09T00:00:00Z",
@@ -1257,6 +1258,11 @@
       {
         "count": 6,
         "timestamp": "2026-06-21T00:00:00Z",
+        "uniques": 2
+      },
+      {
+        "count": 7,
+        "timestamp": "2026-06-22T00:00:00Z",
         "uniques": 2
       }
     ]
