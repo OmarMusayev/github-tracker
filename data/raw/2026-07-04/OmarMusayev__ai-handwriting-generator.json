@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 0,
-        "timestamp": "2026-06-19T00:00:00Z",
-        "uniques": 0
-      },
-      {
         "count": 5,
         "timestamp": "2026-06-20T00:00:00Z",
         "uniques": 2
@@ -70,12 +65,17 @@
         "count": 1,
         "timestamp": "2026-07-02T00:00:00Z",
         "uniques": 1
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-03T00:00:00Z",
+        "uniques": 0
       }
     ],
     "count": 11,
     "uniques": 8
   },
-  "fetched_at": "2026-07-04T00:02:54.713040+00:00",
+  "fetched_at": "2026-07-04T23:59:59.881985+00:00",
   "full_name": "OmarMusayev/ai-handwriting-generator",
   "languages": {
     "CSS": 19971,
@@ -236,17 +236,17 @@
   },
   "paths": [
     {
-      "count": 7,
+      "count": 6,
       "path": "/OmarMusayev/ai-handwriting-generator",
       "title": "Overview",
-      "uniques": 5
+      "uniques": 4
     }
   ],
   "referrers": [
     {
-      "count": 3,
+      "count": 2,
       "referrer": "Google",
-      "uniques": 3
+      "uniques": 2
     },
     {
       "count": 1,
@@ -256,14 +256,9 @@
   ],
   "releases": [],
   "views": {
-    "count": 7,
-    "uniques": 5,
+    "count": 6,
+    "uniques": 4,
     "views": [
-      {
-        "count": 1,
-        "timestamp": "2026-06-19T00:00:00Z",
-        "uniques": 1
-      },
       {
         "count": 0,
         "timestamp": "2026-06-20T00:00:00Z",
@@ -327,6 +322,11 @@
       {
         "count": 0,
         "timestamp": "2026-07-02T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-03T00:00:00Z",
         "uniques": 0
       }
     ]
