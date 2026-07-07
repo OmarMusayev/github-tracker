@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 4,
-        "timestamp": "2026-06-22T00:00:00Z",
-        "uniques": 1
-      },
-      {
         "count": 1,
         "timestamp": "2026-06-23T00:00:00Z",
         "uniques": 1
@@ -70,12 +65,17 @@
         "count": 1,
         "timestamp": "2026-07-05T00:00:00Z",
         "uniques": 1
+      },
+      {
+        "count": 2,
+        "timestamp": "2026-07-06T00:00:00Z",
+        "uniques": 1
       }
     ],
-    "count": 32,
+    "count": 30,
     "uniques": 17
   },
-  "fetched_at": "2026-07-07T00:07:08.447387+00:00",
+  "fetched_at": "2026-07-07T23:56:02.267597+00:00",
   "full_name": "OmarMusayev/terminaltui",
   "languages": {
     "HTML": 73120,
@@ -358,7 +358,7 @@
       "2026-07-03": 18,
       "2026-07-04": 4,
       "2026-07-05": 3,
-      "2026-07-06": 0,
+      "2026-07-06": 7,
       "2026-07-07": 0
     },
     "description": "Framework for building interactive terminal websites and apps \u2014 30+ components, grid system, spatial navigation, themes, ASCII art, file-based routing",
@@ -393,10 +393,10 @@
   },
   "paths": [
     {
-      "count": 64,
+      "count": 61,
       "path": "/OmarMusayev/terminaltui",
       "title": "Overview",
-      "uniques": 29
+      "uniques": 28
     },
     {
       "count": 2,
@@ -406,20 +406,20 @@
     },
     {
       "count": 2,
-      "path": "/OmarMusayev/terminaltui/stargazers",
-      "title": "/stargazers",
+      "path": "/OmarMusayev/terminaltui/issues",
+      "title": "/issues",
+      "uniques": 2
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/terminaltui/blob/main/.gitignore",
+      "title": "/blob/main/.gitignore",
       "uniques": 1
     },
     {
       "count": 1,
       "path": "/OmarMusayev/terminaltui/blob/main/assets/recordings/fonts-and-art.gif",
       "title": "/blob/main/assets/recordings/fonts-and-art.gif",
-      "uniques": 1
-    },
-    {
-      "count": 1,
-      "path": "/OmarMusayev/terminaltui/blob/main/assets/recordings/launch-hero-bg.gif",
-      "title": "/blob/main/assets/recordings/launch-hero-bg.gif",
       "uniques": 1
     },
     {
@@ -455,9 +455,9 @@
   ],
   "referrers": [
     {
-      "count": 22,
+      "count": 18,
       "referrer": "github.com",
-      "uniques": 18
+      "uniques": 17
     },
     {
       "count": 5,
@@ -1206,14 +1206,9 @@
     }
   ],
   "views": {
-    "count": 80,
-    "uniques": 32,
+    "count": 75,
+    "uniques": 31,
     "views": [
-      {
-        "count": 7,
-        "timestamp": "2026-06-22T00:00:00Z",
-        "uniques": 2
-      },
       {
         "count": 14,
         "timestamp": "2026-06-23T00:00:00Z",
@@ -1278,6 +1273,11 @@
         "count": 1,
         "timestamp": "2026-07-05T00:00:00Z",
         "uniques": 1
+      },
+      {
+        "count": 2,
+        "timestamp": "2026-07-06T00:00:00Z",
+        "uniques": 2
       }
     ]
   }

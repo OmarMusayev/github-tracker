@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 1,
-        "timestamp": "2026-06-22T00:00:00Z",
-        "uniques": 1
-      },
-      {
         "count": 0,
         "timestamp": "2026-06-23T00:00:00Z",
         "uniques": 0
@@ -70,12 +65,17 @@
         "count": 0,
         "timestamp": "2026-07-05T00:00:00Z",
         "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-06T00:00:00Z",
+        "uniques": 0
       }
     ],
-    "count": 2,
-    "uniques": 2
+    "count": 1,
+    "uniques": 1
   },
-  "fetched_at": "2026-07-07T00:07:04.539723+00:00",
+  "fetched_at": "2026-07-07T23:55:58.293152+00:00",
   "full_name": "OmarMusayev/Adneural",
   "languages": {
     "CSS": 9098,
@@ -241,11 +241,6 @@
     "views": [
       {
         "count": 0,
-        "timestamp": "2026-06-22T00:00:00Z",
-        "uniques": 0
-      },
-      {
-        "count": 0,
         "timestamp": "2026-06-23T00:00:00Z",
         "uniques": 0
       },
@@ -307,6 +302,11 @@
       {
         "count": 0,
         "timestamp": "2026-07-05T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-06T00:00:00Z",
         "uniques": 0
       }
     ]

@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 1,
-        "timestamp": "2026-06-22T00:00:00Z",
-        "uniques": 1
-      },
-      {
         "count": 0,
         "timestamp": "2026-06-23T00:00:00Z",
         "uniques": 0
@@ -70,12 +65,17 @@
         "count": 0,
         "timestamp": "2026-07-05T00:00:00Z",
         "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-06T00:00:00Z",
+        "uniques": 0
       }
     ],
-    "count": 1,
-    "uniques": 1
+    "count": 0,
+    "uniques": 0
   },
-  "fetched_at": "2026-07-07T00:07:07.669029+00:00",
+  "fetched_at": "2026-07-07T23:56:01.483972+00:00",
   "full_name": "OmarMusayev/puzzlesolver",
   "languages": {
     "Jupyter Notebook": 1488264
@@ -223,23 +223,23 @@
   },
   "paths": [
     {
-      "count": 50,
+      "count": 46,
       "path": "/OmarMusayev/puzzlesolver",
       "title": "Overview",
-      "uniques": 43
+      "uniques": 40
     },
     {
-      "count": 2,
+      "count": 1,
       "path": "/OmarMusayev/puzzlesolver/blob/main/puzzles.ipynb",
       "title": "/blob/main/puzzles.ipynb",
-      "uniques": 2
+      "uniques": 1
     }
   ],
   "referrers": [
     {
-      "count": 48,
+      "count": 43,
       "referrer": "Google",
-      "uniques": 40
+      "uniques": 37
     },
     {
       "count": 2,
@@ -254,14 +254,9 @@
   ],
   "releases": [],
   "views": {
-    "count": 52,
-    "uniques": 43,
+    "count": 47,
+    "uniques": 40,
     "views": [
-      {
-        "count": 7,
-        "timestamp": "2026-06-22T00:00:00Z",
-        "uniques": 5
-      },
       {
         "count": 2,
         "timestamp": "2026-06-23T00:00:00Z",
@@ -326,6 +321,11 @@
         "count": 6,
         "timestamp": "2026-07-05T00:00:00Z",
         "uniques": 5
+      },
+      {
+        "count": 2,
+        "timestamp": "2026-07-06T00:00:00Z",
+        "uniques": 2
       }
     ]
   }
