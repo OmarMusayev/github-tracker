@@ -3,11 +3,6 @@
     "clones": [
       {
         "count": 0,
-        "timestamp": "2026-06-25T00:00:00Z",
-        "uniques": 0
-      },
-      {
-        "count": 0,
         "timestamp": "2026-06-26T00:00:00Z",
         "uniques": 0
       },
@@ -70,12 +65,17 @@
         "count": 2,
         "timestamp": "2026-07-08T00:00:00Z",
         "uniques": 2
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-09T00:00:00Z",
+        "uniques": 0
       }
     ],
     "count": 11,
     "uniques": 10
   },
-  "fetched_at": "2026-07-10T00:03:09.020102+00:00",
+  "fetched_at": "2026-07-10T23:55:40.580611+00:00",
   "full_name": "OmarMusayev/terminaltui",
   "languages": {
     "HTML": 73120,
@@ -433,6 +433,12 @@
     },
     {
       "count": 1,
+      "path": "/OmarMusayev/terminaltui/stargazers",
+      "title": "/stargazers",
+      "uniques": 1
+    },
+    {
+      "count": 1,
       "path": "/OmarMusayev/terminaltui/tree/3c52d9ff178343142d72c09872fd9bff5717ff84",
       "title": "/tree/3c52d9ff178343142d72c09872fd9bff5717ff84",
       "uniques": 1
@@ -452,9 +458,9 @@
   ],
   "referrers": [
     {
-      "count": 12,
+      "count": 11,
       "referrer": "github.com",
-      "uniques": 12
+      "uniques": 11
     },
     {
       "count": 2,
@@ -1208,14 +1214,9 @@
     }
   ],
   "views": {
-    "count": 65,
+    "count": 66,
     "uniques": 27,
     "views": [
-      {
-        "count": 2,
-        "timestamp": "2026-06-25T00:00:00Z",
-        "uniques": 2
-      },
       {
         "count": 4,
         "timestamp": "2026-06-26T00:00:00Z",
@@ -1280,6 +1281,11 @@
         "count": 3,
         "timestamp": "2026-07-08T00:00:00Z",
         "uniques": 3
+      },
+      {
+        "count": 3,
+        "timestamp": "2026-07-09T00:00:00Z",
+        "uniques": 2
       }
     ]
   }
