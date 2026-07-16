@@ -1,0 +1,316 @@
+{
+  "clones": {
+    "clones": [
+      {
+        "count": 46,
+        "timestamp": "2026-07-02T00:00:00Z",
+        "uniques": 21
+      },
+      {
+        "count": 71,
+        "timestamp": "2026-07-03T00:00:00Z",
+        "uniques": 29
+      },
+      {
+        "count": 50,
+        "timestamp": "2026-07-04T00:00:00Z",
+        "uniques": 21
+      },
+      {
+        "count": 84,
+        "timestamp": "2026-07-05T00:00:00Z",
+        "uniques": 36
+      },
+      {
+        "count": 30,
+        "timestamp": "2026-07-06T00:00:00Z",
+        "uniques": 13
+      },
+      {
+        "count": 33,
+        "timestamp": "2026-07-07T00:00:00Z",
+        "uniques": 16
+      },
+      {
+        "count": 46,
+        "timestamp": "2026-07-08T00:00:00Z",
+        "uniques": 23
+      },
+      {
+        "count": 27,
+        "timestamp": "2026-07-09T00:00:00Z",
+        "uniques": 12
+      },
+      {
+        "count": 45,
+        "timestamp": "2026-07-10T00:00:00Z",
+        "uniques": 17
+      },
+      {
+        "count": 29,
+        "timestamp": "2026-07-11T00:00:00Z",
+        "uniques": 11
+      },
+      {
+        "count": 59,
+        "timestamp": "2026-07-12T00:00:00Z",
+        "uniques": 23
+      },
+      {
+        "count": 20,
+        "timestamp": "2026-07-13T00:00:00Z",
+        "uniques": 5
+      },
+      {
+        "count": 79,
+        "timestamp": "2026-07-14T00:00:00Z",
+        "uniques": 33
+      },
+      {
+        "count": 48,
+        "timestamp": "2026-07-15T00:00:00Z",
+        "uniques": 18
+      }
+    ],
+    "count": 667,
+    "uniques": 202
+  },
+  "fetched_at": "2026-07-16T23:57:28.507277+00:00",
+  "full_name": "OmarMusayev/cf-reminders",
+  "languages": {
+    "Python": 12336
+  },
+  "meta": {
+    "allow_auto_merge": false,
+    "allow_forking": true,
+    "allow_merge_commit": true,
+    "allow_rebase_merge": true,
+    "allow_squash_merge": true,
+    "allow_update_branch": false,
+    "archive_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/{archive_format}{/ref}",
+    "archived": false,
+    "assignees_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/assignees{/user}",
+    "blobs_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/git/blobs{/sha}",
+    "branches_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/branches{/branch}",
+    "clone_url": "https://github.com/OmarMusayev/cf-reminders.git",
+    "collaborators_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/collaborators{/collaborator}",
+    "comments_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/comments{/number}",
+    "commits_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/commits{/sha}",
+    "compare_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/compare/{base}...{head}",
+    "contents_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/contents/{+path}",
+    "contributors_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/contributors",
+    "created_at": "2026-05-11T17:06:53Z",
+    "default_branch": "main",
+    "delete_branch_on_merge": false,
+    "deployments_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/deployments",
+    "description": null,
+    "disabled": false,
+    "downloads_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/downloads",
+    "events_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/events",
+    "fork": false,
+    "forks": 0,
+    "forks_count": 0,
+    "forks_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/forks",
+    "full_name": "OmarMusayev/cf-reminders",
+    "git_commits_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/git/commits{/sha}",
+    "git_refs_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/git/refs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/git/tags{/sha}",
+    "git_url": "git://github.com/OmarMusayev/cf-reminders.git",
+    "has_discussions": false,
+    "has_downloads": true,
+    "has_issues": true,
+    "has_pages": false,
+    "has_projects": true,
+    "has_pull_requests": true,
+    "has_wiki": false,
+    "homepage": null,
+    "hooks_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/hooks",
+    "html_url": "https://github.com/OmarMusayev/cf-reminders",
+    "id": 1235801804,
+    "is_template": false,
+    "issue_comment_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/issues/comments{/number}",
+    "issue_events_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/issues/events{/number}",
+    "issues_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/issues{/number}",
+    "keys_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/keys{/key_id}",
+    "labels_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/labels{/name}",
+    "language": "Python",
+    "languages_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/languages",
+    "license": null,
+    "merge_commit_message": "PR_TITLE",
+    "merge_commit_title": "MERGE_MESSAGE",
+    "merges_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/merges",
+    "milestones_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/milestones{/number}",
+    "mirror_url": null,
+    "name": "cf-reminders",
+    "network_count": 0,
+    "node_id": "R_kgDOSajWzA",
+    "notifications_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/notifications{?since,all,participating}",
+    "open_issues": 1,
+    "open_issues_count": 1,
+    "owner": {
+      "avatar_url": "https://avatars.githubusercontent.com/u/104903102?v=4",
+      "events_url": "https://api.github.com/users/OmarMusayev/events{/privacy}",
+      "followers_url": "https://api.github.com/users/OmarMusayev/followers",
+      "following_url": "https://api.github.com/users/OmarMusayev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/OmarMusayev/gists{/gist_id}",
+      "gravatar_id": "",
+      "html_url": "https://github.com/OmarMusayev",
+      "id": 104903102,
+      "login": "OmarMusayev",
+      "node_id": "U_kgDOBkCxvg",
+      "organizations_url": "https://api.github.com/users/OmarMusayev/orgs",
+      "received_events_url": "https://api.github.com/users/OmarMusayev/received_events",
+      "repos_url": "https://api.github.com/users/OmarMusayev/repos",
+      "site_admin": false,
+      "starred_url": "https://api.github.com/users/OmarMusayev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/OmarMusayev/subscriptions",
+      "type": "User",
+      "url": "https://api.github.com/users/OmarMusayev",
+      "user_view_type": "public"
+    },
+    "permissions": {
+      "admin": true,
+      "maintain": true,
+      "pull": true,
+      "push": true,
+      "triage": true
+    },
+    "private": false,
+    "pull_request_creation_policy": "all",
+    "pulls_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/pulls{/number}",
+    "pushed_at": "2026-07-16T23:08:57Z",
+    "releases_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/releases{/id}",
+    "security_and_analysis": {
+      "dependabot_security_updates": {
+        "status": "disabled"
+      },
+      "secret_scanning": {
+        "status": "disabled"
+      },
+      "secret_scanning_non_provider_patterns": {
+        "status": "disabled"
+      },
+      "secret_scanning_push_protection": {
+        "status": "disabled"
+      },
+      "secret_scanning_validity_checks": {
+        "status": "disabled"
+      }
+    },
+    "size": 23083,
+    "squash_merge_commit_message": "COMMIT_MESSAGES",
+    "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
+    "ssh_url": "git@github.com:OmarMusayev/cf-reminders.git",
+    "stargazers_count": 1,
+    "stargazers_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/stargazers",
+    "statuses_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/statuses/{sha}",
+    "subscribers_count": 0,
+    "subscribers_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/subscribers",
+    "subscription_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/subscription",
+    "svn_url": "https://github.com/OmarMusayev/cf-reminders",
+    "tags_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/tags",
+    "teams_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/teams",
+    "temp_clone_token": "",
+    "topics": [],
+    "trees_url": "https://api.github.com/repos/OmarMusayev/cf-reminders/git/trees{/sha}",
+    "updated_at": "2026-07-16T23:09:01Z",
+    "url": "https://api.github.com/repos/OmarMusayev/cf-reminders",
+    "use_squash_pr_title_as_default": false,
+    "visibility": "public",
+    "watchers": 1,
+    "watchers_count": 1,
+    "web_commit_signoff_required": false
+  },
+  "paths": [
+    {
+      "count": 1,
+      "path": "/OmarMusayev/cf-reminders",
+      "title": "Overview",
+      "uniques": 1
+    }
+  ],
+  "referrers": [
+    {
+      "count": 1,
+      "referrer": "github.com",
+      "uniques": 1
+    }
+  ],
+  "releases": [],
+  "views": {
+    "count": 1,
+    "uniques": 1,
+    "views": [
+      {
+        "count": 0,
+        "timestamp": "2026-07-02T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-03T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-04T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-05T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-06T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-07T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-08T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-09T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-07-10T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-11T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-12T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-13T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-14T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-15T00:00:00Z",
+        "uniques": 0
+      }
+    ]
+  }
+}
