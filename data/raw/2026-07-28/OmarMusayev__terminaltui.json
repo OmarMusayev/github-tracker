@@ -3,11 +3,6 @@
     "clones": [
       {
         "count": 1,
-        "timestamp": "2026-07-13T00:00:00Z",
-        "uniques": 1
-      },
-      {
-        "count": 1,
         "timestamp": "2026-07-14T00:00:00Z",
         "uniques": 1
       },
@@ -70,12 +65,17 @@
         "count": 0,
         "timestamp": "2026-07-26T00:00:00Z",
         "uniques": 0
+      },
+      {
+        "count": 3,
+        "timestamp": "2026-07-27T00:00:00Z",
+        "uniques": 3
       }
     ],
-    "count": 186,
-    "uniques": 60
+    "count": 188,
+    "uniques": 61
   },
-  "fetched_at": "2026-07-28T00:00:32.361928+00:00",
+  "fetched_at": "2026-07-28T23:56:50.310413+00:00",
   "full_name": "OmarMusayev/terminaltui",
   "languages": {
     "HTML": 73120,
@@ -379,7 +379,7 @@
       "2026-07-24": 18,
       "2026-07-25": 54,
       "2026-07-26": 0,
-      "2026-07-27": 0,
+      "2026-07-27": 2,
       "2026-07-28": 0
     },
     "description": "Next.js for the terminal \u2014 file-based routing, 30+ components, spatial navigation, 10 themes, ASCII art, and SSH hosting for interactive TUI apps. Ship with npx.",
@@ -418,10 +418,10 @@
   },
   "paths": [
     {
-      "count": 38,
+      "count": 37,
       "path": "/OmarMusayev/terminaltui",
       "title": "Overview",
-      "uniques": 15
+      "uniques": 14
     },
     {
       "count": 2,
@@ -480,14 +480,14 @@
   ],
   "referrers": [
     {
-      "count": 43,
+      "count": 42,
       "referrer": "github.com",
-      "uniques": 14
+      "uniques": 13
     },
     {
-      "count": 4,
+      "count": 3,
       "referrer": "terminaltui.dev",
-      "uniques": 4
+      "uniques": 3
     }
   ],
   "releases": [
@@ -1231,14 +1231,9 @@
     }
   ],
   "views": {
-    "count": 55,
-    "uniques": 16,
+    "count": 54,
+    "uniques": 15,
     "views": [
-      {
-        "count": 3,
-        "timestamp": "2026-07-13T00:00:00Z",
-        "uniques": 3
-      },
       {
         "count": 0,
         "timestamp": "2026-07-14T00:00:00Z",
@@ -1303,6 +1298,11 @@
         "count": 3,
         "timestamp": "2026-07-26T00:00:00Z",
         "uniques": 3
+      },
+      {
+        "count": 2,
+        "timestamp": "2026-07-27T00:00:00Z",
+        "uniques": 2
       }
     ]
   }
