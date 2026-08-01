@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 1,
-        "timestamp": "2026-07-17T00:00:00Z",
-        "uniques": 1
-      },
-      {
         "count": 3,
         "timestamp": "2026-07-18T00:00:00Z",
         "uniques": 3
@@ -70,12 +65,17 @@
         "count": 27,
         "timestamp": "2026-07-30T00:00:00Z",
         "uniques": 5
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-07-31T00:00:00Z",
+        "uniques": 1
       }
     ],
     "count": 202,
-    "uniques": 59
+    "uniques": 58
   },
-  "fetched_at": "2026-08-01T00:00:17.663077+00:00",
+  "fetched_at": "2026-08-01T23:55:38.682213+00:00",
   "full_name": "OmarMusayev/terminaltui",
   "languages": {
     "HTML": 73120,
@@ -209,7 +209,7 @@
     "squash_merge_commit_message": "COMMIT_MESSAGES",
     "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
     "ssh_url": "git@github.com:OmarMusayev/terminaltui.git",
-    "stargazers_count": 37,
+    "stargazers_count": 38,
     "stargazers_url": "https://api.github.com/repos/OmarMusayev/terminaltui/stargazers",
     "statuses_url": "https://api.github.com/repos/OmarMusayev/terminaltui/statuses/{sha}",
     "subscribers_count": 3,
@@ -242,12 +242,12 @@
       "typescript"
     ],
     "trees_url": "https://api.github.com/repos/OmarMusayev/terminaltui/git/trees{/sha}",
-    "updated_at": "2026-07-22T02:42:04Z",
+    "updated_at": "2026-08-01T08:58:53Z",
     "url": "https://api.github.com/repos/OmarMusayev/terminaltui",
     "use_squash_pr_title_as_default": false,
     "visibility": "public",
-    "watchers": 37,
-    "watchers_count": 37,
+    "watchers": 38,
+    "watchers_count": 38,
     "web_commit_signoff_required": false
   },
   "npm": {
@@ -383,7 +383,7 @@
       "2026-07-28": 6,
       "2026-07-29": 5,
       "2026-07-30": 2,
-      "2026-07-31": 0,
+      "2026-07-31": 4,
       "2026-08-01": 0
     },
     "description": "Next.js for the terminal \u2014 file-based routing, 30+ components, spatial navigation, 10 themes, ASCII art, and SSH hosting for interactive TUI apps. Ship with npx.",
@@ -422,10 +422,10 @@
   },
   "paths": [
     {
-      "count": 51,
+      "count": 59,
       "path": "/OmarMusayev/terminaltui",
       "title": "Overview",
-      "uniques": 24
+      "uniques": 28
     },
     {
       "count": 2,
@@ -484,14 +484,14 @@
   ],
   "referrers": [
     {
-      "count": 48,
+      "count": 50,
       "referrer": "github.com",
-      "uniques": 19
+      "uniques": 21
     },
     {
-      "count": 4,
+      "count": 3,
       "referrer": "terminaltui.dev",
-      "uniques": 4
+      "uniques": 3
     }
   ],
   "releases": [
@@ -1235,14 +1235,9 @@
     }
   ],
   "views": {
-    "count": 68,
-    "uniques": 25,
+    "count": 75,
+    "uniques": 28,
     "views": [
-      {
-        "count": 1,
-        "timestamp": "2026-07-17T00:00:00Z",
-        "uniques": 1
-      },
       {
         "count": 3,
         "timestamp": "2026-07-18T00:00:00Z",
@@ -1307,6 +1302,11 @@
         "count": 3,
         "timestamp": "2026-07-30T00:00:00Z",
         "uniques": 3
+      },
+      {
+        "count": 8,
+        "timestamp": "2026-07-31T00:00:00Z",
+        "uniques": 7
       }
     ]
   }

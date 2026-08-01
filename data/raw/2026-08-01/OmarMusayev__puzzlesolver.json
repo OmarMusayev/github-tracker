@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 0,
-        "timestamp": "2026-07-17T00:00:00Z",
-        "uniques": 0
-      },
-      {
         "count": 1,
         "timestamp": "2026-07-18T00:00:00Z",
         "uniques": 1
@@ -70,12 +65,17 @@
         "count": 1,
         "timestamp": "2026-07-30T00:00:00Z",
         "uniques": 1
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-07-31T00:00:00Z",
+        "uniques": 0
       }
     ],
     "count": 9,
     "uniques": 9
   },
-  "fetched_at": "2026-08-01T00:00:16.443302+00:00",
+  "fetched_at": "2026-08-01T23:55:37.626310+00:00",
   "full_name": "OmarMusayev/puzzlesolver",
   "languages": {
     "Jupyter Notebook": 1488264
@@ -223,10 +223,10 @@
   },
   "paths": [
     {
-      "count": 81,
+      "count": 80,
       "path": "/OmarMusayev/puzzlesolver",
       "title": "Overview",
-      "uniques": 65
+      "uniques": 64
     },
     {
       "count": 20,
@@ -242,14 +242,20 @@
     },
     {
       "count": 3,
-      "path": "/OmarMusayev/puzzlesolver/issues",
-      "title": "/issues",
+      "path": "/OmarMusayev/puzzlesolver/projects",
+      "title": "/projects",
       "uniques": 2
     },
     {
       "count": 3,
       "path": "/OmarMusayev/puzzlesolver/tree/main",
       "title": "/tree/main",
+      "uniques": 2
+    },
+    {
+      "count": 2,
+      "path": "/OmarMusayev/puzzlesolver/issues",
+      "title": "/issues",
       "uniques": 2
     },
     {
@@ -266,33 +272,22 @@
     },
     {
       "count": 1,
-      "path": "/OmarMusayev/puzzlesolver/projects",
-      "title": "/projects",
-      "uniques": 1
-    },
-    {
-      "count": 1,
       "path": "/OmarMusayev/puzzlesolver/pulls",
       "title": "/pulls",
       "uniques": 1
     },
     {
       "count": 1,
-      "path": "/OmarMusayev/puzzlesolver/upload/main",
-      "title": "/upload/main",
+      "path": "/OmarMusayev/puzzlesolver/pulse",
+      "title": "/pulse",
       "uniques": 1
     }
   ],
   "referrers": [
     {
-      "count": 93,
+      "count": 96,
       "referrer": "Google",
-      "uniques": 58
-    },
-    {
-      "count": 2,
-      "referrer": "github-com.translate.goog",
-      "uniques": 1
+      "uniques": 57
     },
     {
       "count": 1,
@@ -302,14 +297,9 @@
   ],
   "releases": [],
   "views": {
-    "count": 116,
-    "uniques": 67,
+    "count": 117,
+    "uniques": 66,
     "views": [
-      {
-        "count": 5,
-        "timestamp": "2026-07-17T00:00:00Z",
-        "uniques": 3
-      },
       {
         "count": 16,
         "timestamp": "2026-07-18T00:00:00Z",
@@ -373,6 +363,11 @@
       {
         "count": 3,
         "timestamp": "2026-07-30T00:00:00Z",
+        "uniques": 2
+      },
+      {
+        "count": 6,
+        "timestamp": "2026-07-31T00:00:00Z",
         "uniques": 2
       }
     ]
