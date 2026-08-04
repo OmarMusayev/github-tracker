@@ -2,16 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 1,
-        "timestamp": "2026-07-19T00:00:00Z",
-        "uniques": 1
-      },
-      {
-        "count": 2,
-        "timestamp": "2026-07-20T00:00:00Z",
-        "uniques": 2
-      },
-      {
         "count": 0,
         "timestamp": "2026-07-21T00:00:00Z",
         "uniques": 0
@@ -70,12 +60,22 @@
         "count": 0,
         "timestamp": "2026-08-01T00:00:00Z",
         "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-08-02T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-08-03T00:00:00Z",
+        "uniques": 1
       }
     ],
-    "count": 8,
-    "uniques": 8
+    "count": 6,
+    "uniques": 6
   },
-  "fetched_at": "2026-08-04T00:07:20.320348+00:00",
+  "fetched_at": "2026-08-04T23:59:44.332617+00:00",
   "full_name": "OmarMusayev/puzzlesolver",
   "languages": {
     "Jupyter Notebook": 1488264
@@ -223,16 +223,16 @@
   },
   "paths": [
     {
-      "count": 72,
+      "count": 70,
       "path": "/OmarMusayev/puzzlesolver",
       "title": "Overview",
-      "uniques": 60
+      "uniques": 61
     },
     {
-      "count": 16,
+      "count": 13,
       "path": "/OmarMusayev/puzzlesolver/blob/main/puzzles.ipynb",
       "title": "/blob/main/puzzles.ipynb",
-      "uniques": 5
+      "uniques": 3
     },
     {
       "count": 3,
@@ -297,19 +297,9 @@
   ],
   "releases": [],
   "views": {
-    "count": 104,
-    "uniques": 63,
+    "count": 99,
+    "uniques": 62,
     "views": [
-      {
-        "count": 13,
-        "timestamp": "2026-07-19T00:00:00Z",
-        "uniques": 8
-      },
-      {
-        "count": 7,
-        "timestamp": "2026-07-20T00:00:00Z",
-        "uniques": 6
-      },
       {
         "count": 12,
         "timestamp": "2026-07-21T00:00:00Z",
@@ -369,6 +359,16 @@
         "count": 3,
         "timestamp": "2026-08-01T00:00:00Z",
         "uniques": 3
+      },
+      {
+        "count": 8,
+        "timestamp": "2026-08-02T00:00:00Z",
+        "uniques": 5
+      },
+      {
+        "count": 7,
+        "timestamp": "2026-08-03T00:00:00Z",
+        "uniques": 7
       }
     ]
   }

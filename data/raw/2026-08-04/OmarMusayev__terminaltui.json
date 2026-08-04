@@ -2,21 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 3,
-        "timestamp": "2026-07-18T00:00:00Z",
-        "uniques": 3
-      },
-      {
-        "count": 2,
-        "timestamp": "2026-07-19T00:00:00Z",
-        "uniques": 2
-      },
-      {
-        "count": 58,
-        "timestamp": "2026-07-20T00:00:00Z",
-        "uniques": 15
-      },
-      {
         "count": 31,
         "timestamp": "2026-07-21T00:00:00Z",
         "uniques": 8
@@ -70,12 +55,27 @@
         "count": 1,
         "timestamp": "2026-07-31T00:00:00Z",
         "uniques": 1
+      },
+      {
+        "count": 2,
+        "timestamp": "2026-08-01T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 3,
+        "timestamp": "2026-08-02T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 4,
+        "timestamp": "2026-08-03T00:00:00Z",
+        "uniques": 3
       }
     ],
-    "count": 202,
-    "uniques": 58
+    "count": 148,
+    "uniques": 46
   },
-  "fetched_at": "2026-08-04T00:07:21.473904+00:00",
+  "fetched_at": "2026-08-04T23:59:45.098570+00:00",
   "full_name": "OmarMusayev/terminaltui",
   "languages": {
     "HTML": 73120,
@@ -386,7 +386,7 @@
       "2026-07-31": 4,
       "2026-08-01": 5,
       "2026-08-02": 5,
-      "2026-08-03": 0,
+      "2026-08-03": 6,
       "2026-08-04": 0
     },
     "description": "Next.js for the terminal \u2014 file-based routing, 30+ components, spatial navigation, 10 themes, ASCII art, and SSH hosting for interactive TUI apps. Ship with npx.",
@@ -425,10 +425,10 @@
   },
   "paths": [
     {
-      "count": 59,
+      "count": 58,
       "path": "/OmarMusayev/terminaltui",
       "title": "Overview",
-      "uniques": 28
+      "uniques": 32
     },
     {
       "count": 2,
@@ -443,36 +443,6 @@
       "uniques": 1
     },
     {
-      "count": 2,
-      "path": "/OmarMusayev/terminaltui/commits/main",
-      "title": "/commits/main",
-      "uniques": 1
-    },
-    {
-      "count": 1,
-      "path": "/OmarMusayev/terminaltui/actions",
-      "title": "/actions",
-      "uniques": 1
-    },
-    {
-      "count": 1,
-      "path": "/OmarMusayev/terminaltui/actions/runs/29718378180",
-      "title": "/actions/runs/29718378180",
-      "uniques": 1
-    },
-    {
-      "count": 1,
-      "path": "/OmarMusayev/terminaltui/actions/runs/29718378180/job/88275988618",
-      "title": "/actions/runs/29718378180/job/88275988618",
-      "uniques": 1
-    },
-    {
-      "count": 1,
-      "path": "/OmarMusayev/terminaltui/actions/runs/29718378180/job/88275988640",
-      "title": "/actions/runs/29718378180/job/88275988640",
-      "uniques": 1
-    },
-    {
       "count": 1,
       "path": "/OmarMusayev/terminaltui/actions/runs/29801027326/job/88541985479",
       "title": "/actions/runs/29801027326/job/88541985479",
@@ -480,19 +450,49 @@
     },
     {
       "count": 1,
-      "path": "/OmarMusayev/terminaltui/blob/main/devnotes/2026-06-01-the-ci-that-caught-its-own-bug.md",
-      "title": "/blob/main/devnotes/2026-06-01-the-ci-that-caught-its-own-bug.md",
+      "path": "/OmarMusayev/terminaltui/blob/main/docs/components.md",
+      "title": "/blob/main/docs/components.md",
+      "uniques": 1
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/terminaltui/blob/main/docs/layouts.md",
+      "title": "/blob/main/docs/layouts.md",
+      "uniques": 1
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/terminaltui/commits/main",
+      "title": "/commits/main",
+      "uniques": 1
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/terminaltui/compare/main",
+      "title": "/compare/main",
+      "uniques": 1
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/terminaltui/tree/main",
+      "title": "/tree/main",
+      "uniques": 1
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/terminaltui/tree/main/docs",
+      "title": "/tree/main/docs",
       "uniques": 1
     }
   ],
   "referrers": [
     {
-      "count": 50,
+      "count": 41,
       "referrer": "github.com",
-      "uniques": 21
+      "uniques": 25
     },
     {
-      "count": 3,
+      "count": 6,
       "referrer": "terminaltui.dev",
       "uniques": 3
     }
@@ -1238,24 +1238,9 @@
     }
   ],
   "views": {
-    "count": 75,
-    "uniques": 28,
+    "count": 69,
+    "uniques": 33,
     "views": [
-      {
-        "count": 3,
-        "timestamp": "2026-07-18T00:00:00Z",
-        "uniques": 2
-      },
-      {
-        "count": 5,
-        "timestamp": "2026-07-19T00:00:00Z",
-        "uniques": 1
-      },
-      {
-        "count": 17,
-        "timestamp": "2026-07-20T00:00:00Z",
-        "uniques": 1
-      },
       {
         "count": 4,
         "timestamp": "2026-07-21T00:00:00Z",
@@ -1310,6 +1295,21 @@
         "count": 8,
         "timestamp": "2026-07-31T00:00:00Z",
         "uniques": 7
+      },
+      {
+        "count": 7,
+        "timestamp": "2026-08-01T00:00:00Z",
+        "uniques": 5
+      },
+      {
+        "count": 8,
+        "timestamp": "2026-08-02T00:00:00Z",
+        "uniques": 5
+      },
+      {
+        "count": 4,
+        "timestamp": "2026-08-03T00:00:00Z",
+        "uniques": 2
       }
     ]
   }

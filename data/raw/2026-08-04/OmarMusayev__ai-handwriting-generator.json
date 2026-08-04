@@ -3,21 +3,6 @@
     "clones": [
       {
         "count": 1,
-        "timestamp": "2026-07-18T00:00:00Z",
-        "uniques": 1
-      },
-      {
-        "count": 1,
-        "timestamp": "2026-07-19T00:00:00Z",
-        "uniques": 1
-      },
-      {
-        "count": 0,
-        "timestamp": "2026-07-20T00:00:00Z",
-        "uniques": 0
-      },
-      {
-        "count": 1,
         "timestamp": "2026-07-21T00:00:00Z",
         "uniques": 1
       },
@@ -70,12 +55,27 @@
         "count": 0,
         "timestamp": "2026-07-31T00:00:00Z",
         "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-08-01T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 0,
+        "timestamp": "2026-08-02T00:00:00Z",
+        "uniques": 0
+      },
+      {
+        "count": 3,
+        "timestamp": "2026-08-03T00:00:00Z",
+        "uniques": 2
       }
     ],
-    "count": 21,
+    "count": 22,
     "uniques": 10
   },
-  "fetched_at": "2026-08-04T00:07:16.542730+00:00",
+  "fetched_at": "2026-08-04T23:59:42.166995+00:00",
   "full_name": "OmarMusayev/ai-handwriting-generator",
   "languages": {
     "CSS": 19971,
@@ -236,22 +236,10 @@
   },
   "paths": [
     {
-      "count": 16,
+      "count": 15,
       "path": "/OmarMusayev/ai-handwriting-generator",
       "title": "Overview",
-      "uniques": 10
-    },
-    {
-      "count": 1,
-      "path": "/OmarMusayev/ai-handwriting-generator/blob/main/docs/TRAINING.md",
-      "title": "/blob/main/docs/TRAINING.md",
-      "uniques": 1
-    },
-    {
-      "count": 1,
-      "path": "/OmarMusayev/ai-handwriting-generator/tree/main/handwriting",
-      "title": "/tree/main/handwriting",
-      "uniques": 1
+      "uniques": 11
     }
   ],
   "referrers": [
@@ -268,24 +256,9 @@
   ],
   "releases": [],
   "views": {
-    "count": 18,
-    "uniques": 10,
+    "count": 15,
+    "uniques": 11,
     "views": [
-      {
-        "count": 1,
-        "timestamp": "2026-07-18T00:00:00Z",
-        "uniques": 1
-      },
-      {
-        "count": 6,
-        "timestamp": "2026-07-19T00:00:00Z",
-        "uniques": 2
-      },
-      {
-        "count": 0,
-        "timestamp": "2026-07-20T00:00:00Z",
-        "uniques": 0
-      },
       {
         "count": 0,
         "timestamp": "2026-07-21T00:00:00Z",
@@ -340,6 +313,21 @@
         "count": 1,
         "timestamp": "2026-07-31T00:00:00Z",
         "uniques": 1
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-08-01T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-08-02T00:00:00Z",
+        "uniques": 1
+      },
+      {
+        "count": 2,
+        "timestamp": "2026-08-03T00:00:00Z",
+        "uniques": 2
       }
     ]
   }
