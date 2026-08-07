@@ -2,11 +2,6 @@
   "clones": {
     "clones": [
       {
-        "count": 5,
-        "timestamp": "2026-07-23T00:00:00Z",
-        "uniques": 5
-      },
-      {
         "count": 2,
         "timestamp": "2026-07-24T00:00:00Z",
         "uniques": 2
@@ -70,12 +65,17 @@
         "count": 5,
         "timestamp": "2026-08-05T00:00:00Z",
         "uniques": 5
+      },
+      {
+        "count": 1,
+        "timestamp": "2026-08-06T00:00:00Z",
+        "uniques": 1
       }
     ],
-    "count": 78,
-    "uniques": 34
+    "count": 74,
+    "uniques": 30
   },
-  "fetched_at": "2026-08-07T01:40:57.052182+00:00",
+  "fetched_at": "2026-08-07T23:31:22.313111+00:00",
   "full_name": "OmarMusayev/terminaltui",
   "languages": {
     "HTML": 73120,
@@ -209,7 +209,7 @@
     "squash_merge_commit_message": "COMMIT_MESSAGES",
     "squash_merge_commit_title": "COMMIT_OR_PR_TITLE",
     "ssh_url": "git@github.com:OmarMusayev/terminaltui.git",
-    "stargazers_count": 38,
+    "stargazers_count": 39,
     "stargazers_url": "https://api.github.com/repos/OmarMusayev/terminaltui/stargazers",
     "statuses_url": "https://api.github.com/repos/OmarMusayev/terminaltui/statuses/{sha}",
     "subscribers_count": 3,
@@ -242,12 +242,12 @@
       "typescript"
     ],
     "trees_url": "https://api.github.com/repos/OmarMusayev/terminaltui/git/trees{/sha}",
-    "updated_at": "2026-08-01T08:58:53Z",
+    "updated_at": "2026-08-07T22:00:10Z",
     "url": "https://api.github.com/repos/OmarMusayev/terminaltui",
     "use_squash_pr_title_as_default": false,
     "visibility": "public",
-    "watchers": 38,
-    "watchers_count": 38,
+    "watchers": 39,
+    "watchers_count": 39,
     "web_commit_signoff_required": false
   },
   "npm": {
@@ -389,7 +389,7 @@
       "2026-08-03": 6,
       "2026-08-04": 1,
       "2026-08-05": 0,
-      "2026-08-06": 0,
+      "2026-08-06": 2,
       "2026-08-07": 0
     },
     "description": "Next.js for the terminal \u2014 file-based routing, 30+ components, spatial navigation, 10 themes, ASCII art, and SSH hosting for interactive TUI apps. Ship with npx.",
@@ -428,7 +428,7 @@
   },
   "paths": [
     {
-      "count": 61,
+      "count": 60,
       "path": "/OmarMusayev/terminaltui",
       "title": "Overview",
       "uniques": 34
@@ -447,15 +447,15 @@
     },
     {
       "count": 2,
-      "path": "/OmarMusayev/terminaltui/issues",
-      "title": "/issues",
+      "path": "/OmarMusayev/terminaltui/blob/main/docs/getting-started.md",
+      "title": "/blob/main/docs/getting-started.md",
       "uniques": 2
     },
     {
       "count": 2,
-      "path": "/OmarMusayev/terminaltui/commit/7027748b44fd368fcf7be43e76914f327801d072",
-      "title": "/commit/7027748b44fd368fcf7be43e76914f327801d072",
-      "uniques": 1
+      "path": "/OmarMusayev/terminaltui/issues",
+      "title": "/issues",
+      "uniques": 2
     },
     {
       "count": 1,
@@ -471,12 +471,6 @@
     },
     {
       "count": 1,
-      "path": "/OmarMusayev/terminaltui/blob/main/docs/getting-started.md",
-      "title": "/blob/main/docs/getting-started.md",
-      "uniques": 1
-    },
-    {
-      "count": 1,
       "path": "/OmarMusayev/terminaltui/blob/main/docs/layouts.md",
       "title": "/blob/main/docs/layouts.md",
       "uniques": 1
@@ -486,18 +480,24 @@
       "path": "/OmarMusayev/terminaltui/blob/main/docs/routing.md",
       "title": "/blob/main/docs/routing.md",
       "uniques": 1
+    },
+    {
+      "count": 1,
+      "path": "/OmarMusayev/terminaltui/blob/main/docs/serve.md",
+      "title": "/blob/main/docs/serve.md",
+      "uniques": 1
     }
   ],
   "referrers": [
     {
-      "count": 41,
+      "count": 32,
       "referrer": "github.com",
-      "uniques": 27
+      "uniques": 26
     },
     {
-      "count": 5,
+      "count": 6,
       "referrer": "terminaltui.dev",
-      "uniques": 2
+      "uniques": 3
     }
   ],
   "releases": [
@@ -1241,14 +1241,9 @@
     }
   ],
   "views": {
-    "count": 84,
+    "count": 80,
     "uniques": 42,
     "views": [
-      {
-        "count": 10,
-        "timestamp": "2026-07-23T00:00:00Z",
-        "uniques": 2
-      },
       {
         "count": 3,
         "timestamp": "2026-07-24T00:00:00Z",
@@ -1313,6 +1308,11 @@
         "count": 1,
         "timestamp": "2026-08-05T00:00:00Z",
         "uniques": 1
+      },
+      {
+        "count": 6,
+        "timestamp": "2026-08-06T00:00:00Z",
+        "uniques": 4
       }
     ]
   }
