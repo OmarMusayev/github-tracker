@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-19T23:20:12.136100+00:00",
+  "generated_at": "2026-08-20T23:23:08.824925+00:00",
   "repos": {
     "OmarMusayev/Adneural": {
       "all_time": {
         "clones": 61,
-        "views": 35
+        "views": 36
       },
       "clones": [
         {
@@ -620,6 +620,16 @@
         {
           "count": 0,
           "date": "2026-08-17",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-08-18",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-08-19",
           "uniques": 0
         }
       ],
@@ -1316,6 +1326,13 @@
           "open_issues": 2,
           "stars": 6,
           "watchers": 6
+        },
+        {
+          "date": "2026-08-20",
+          "forks": 0,
+          "open_issues": 2,
+          "stars": 6,
+          "watchers": 6
         }
       ],
       "languages": [
@@ -1351,7 +1368,7 @@
         "language": "TypeScript",
         "open_issues": 2,
         "pushed_at": "2026-04-05T13:08:42Z",
-        "snap_date": "2026-08-19",
+        "snap_date": "2026-08-20",
         "stars": 6,
         "subscribers": 0,
         "watchers": 6
@@ -1362,11 +1379,17 @@
           "path": "/OmarMusayev/Adneural",
           "title": "Overview",
           "uniques": 2
+        },
+        {
+          "count": 1,
+          "path": "/OmarMusayev/Adneural/stargazers",
+          "title": "/stargazers",
+          "uniques": 1
         }
       ],
       "referrers": [
         {
-          "count": 3,
+          "count": 4,
           "referrer": "github.com",
           "uniques": 2
         },
@@ -1992,13 +2015,23 @@
           "count": 0,
           "date": "2026-08-17",
           "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-08-18",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-08-19",
+          "uniques": 1
         }
       ]
     },
     "OmarMusayev/ai-handwriting-generator": {
       "all_time": {
-        "clones": 151,
-        "views": 111
+        "clones": 152,
+        "views": 113
       },
       "clones": [
         {
@@ -2615,6 +2648,16 @@
           "count": 0,
           "date": "2026-08-17",
           "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-08-18",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-08-19",
+          "uniques": 1
         }
       ],
       "history": [
@@ -3310,6 +3353,13 @@
           "open_issues": 0,
           "stars": 8,
           "watchers": 8
+        },
+        {
+          "date": "2026-08-20",
+          "forks": 0,
+          "open_issues": 0,
+          "stars": 8,
+          "watchers": 8
         }
       ],
       "languages": [
@@ -3353,17 +3403,17 @@
         "language": "Python",
         "open_issues": 0,
         "pushed_at": "2026-05-14T20:03:18Z",
-        "snap_date": "2026-08-19",
+        "snap_date": "2026-08-20",
         "stars": 8,
         "subscribers": 1,
         "watchers": 8
       },
       "paths": [
         {
-          "count": 19,
+          "count": 17,
           "path": "/OmarMusayev/ai-handwriting-generator",
           "title": "Overview",
-          "uniques": 14
+          "uniques": 15
         },
         {
           "count": 1,
@@ -4017,12 +4067,22 @@
           "count": 1,
           "date": "2026-08-17",
           "uniques": 1
+        },
+        {
+          "count": 2,
+          "date": "2026-08-18",
+          "uniques": 2
+        },
+        {
+          "count": 0,
+          "date": "2026-08-19",
+          "uniques": 0
         }
       ]
     },
     "OmarMusayev/cf-reminders": {
       "all_time": {
-        "clones": 6972,
+        "clones": 7030,
         "views": 15
       },
       "clones": [
@@ -4585,6 +4645,16 @@
           "count": 40,
           "date": "2026-08-17",
           "uniques": 11
+        },
+        {
+          "count": 30,
+          "date": "2026-08-18",
+          "uniques": 9
+        },
+        {
+          "count": 28,
+          "date": "2026-08-19",
+          "uniques": 8
         }
       ],
       "history": [
@@ -5210,6 +5280,13 @@
           "open_issues": 1,
           "stars": 1,
           "watchers": 1
+        },
+        {
+          "date": "2026-08-20",
+          "forks": 0,
+          "open_issues": 1,
+          "stars": 1,
+          "watchers": 1
         }
       ],
       "languages": [
@@ -5224,8 +5301,8 @@
         "forks": 0,
         "language": "Python",
         "open_issues": 1,
-        "pushed_at": "2026-08-19T22:37:10Z",
-        "snap_date": "2026-08-19",
+        "pushed_at": "2026-08-20T22:41:18Z",
+        "snap_date": "2026-08-20",
         "stars": 1,
         "subscribers": 0,
         "watchers": 1
@@ -5806,12 +5883,22 @@
           "count": 0,
           "date": "2026-08-17",
           "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-08-18",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-08-19",
+          "uniques": 0
         }
       ]
     },
     "OmarMusayev/github-tracker": {
       "all_time": {
-        "clones": 2207,
+        "clones": 2213,
         "views": 15
       },
       "clones": [
@@ -6424,6 +6511,16 @@
           "count": 13,
           "date": "2026-08-17",
           "uniques": 7
+        },
+        {
+          "count": 3,
+          "date": "2026-08-18",
+          "uniques": 2
+        },
+        {
+          "count": 3,
+          "date": "2026-08-19",
+          "uniques": 2
         }
       ],
       "history": [
@@ -7119,6 +7216,13 @@
           "open_issues": 0,
           "stars": 0,
           "watchers": 0
+        },
+        {
+          "date": "2026-08-20",
+          "forks": 0,
+          "open_issues": 0,
+          "stars": 0,
+          "watchers": 0
         }
       ],
       "languages": [
@@ -7133,8 +7237,8 @@
         "forks": 0,
         "language": "Python",
         "open_issues": 0,
-        "pushed_at": "2026-08-18T23:19:30Z",
-        "snap_date": "2026-08-19",
+        "pushed_at": "2026-08-19T23:20:13Z",
+        "snap_date": "2026-08-20",
         "stars": 0,
         "subscribers": 0,
         "watchers": 0
@@ -7765,13 +7869,23 @@
           "count": 0,
           "date": "2026-08-17",
           "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-08-18",
+          "uniques": 0
+        },
+        {
+          "count": 0,
+          "date": "2026-08-19",
+          "uniques": 0
         }
       ]
     },
     "OmarMusayev/puzzlesolver": {
       "all_time": {
-        "clones": 41,
-        "views": 835
+        "clones": 42,
+        "views": 859
       },
       "clones": [
         {
@@ -8387,6 +8501,16 @@
         {
           "count": 0,
           "date": "2026-08-17",
+          "uniques": 0
+        },
+        {
+          "count": 1,
+          "date": "2026-08-18",
+          "uniques": 1
+        },
+        {
+          "count": 0,
+          "date": "2026-08-19",
           "uniques": 0
         }
       ],
@@ -9083,6 +9207,13 @@
           "open_issues": 0,
           "stars": 8,
           "watchers": 8
+        },
+        {
+          "date": "2026-08-20",
+          "forks": 2,
+          "open_issues": 0,
+          "stars": 8,
+          "watchers": 8
         }
       ],
       "languages": [
@@ -9098,17 +9229,29 @@
         "language": "Jupyter Notebook",
         "open_issues": 0,
         "pushed_at": "2023-08-03T23:59:41Z",
-        "snap_date": "2026-08-19",
+        "snap_date": "2026-08-20",
         "stars": 8,
         "subscribers": 1,
         "watchers": 8
       },
       "paths": [
         {
-          "count": 127,
+          "count": 130,
           "path": "/OmarMusayev/puzzlesolver",
           "title": "Overview",
-          "uniques": 106
+          "uniques": 108
+        },
+        {
+          "count": 9,
+          "path": "/OmarMusayev/puzzlesolver/blob/main/puzzles.ipynb",
+          "title": "/blob/main/puzzles.ipynb",
+          "uniques": 6
+        },
+        {
+          "count": 5,
+          "path": "/OmarMusayev/puzzlesolver/tree/main",
+          "title": "/tree/main",
+          "uniques": 3
         },
         {
           "count": 4,
@@ -9121,12 +9264,6 @@
           "path": "/OmarMusayev/puzzlesolver/blob/main/README.md",
           "title": "/blob/main/README.md",
           "uniques": 2
-        },
-        {
-          "count": 3,
-          "path": "/OmarMusayev/puzzlesolver/blob/main/puzzles.ipynb",
-          "title": "/blob/main/puzzles.ipynb",
-          "uniques": 3
         },
         {
           "count": 1,
@@ -9142,12 +9279,6 @@
         },
         {
           "count": 1,
-          "path": "/OmarMusayev/puzzlesolver/tree/main",
-          "title": "/tree/main",
-          "uniques": 1
-        },
-        {
-          "count": 1,
           "path": "/OmarMusayev/puzzlesolver/upload/main",
           "title": "/upload/main",
           "uniques": 1
@@ -9155,23 +9286,28 @@
       ],
       "referrers": [
         {
-          "count": 123,
+          "count": 126,
           "referrer": "Google",
           "uniques": 95
         },
         {
           "count": 3,
-          "referrer": "search.brave.com",
-          "uniques": 3
-        },
-        {
-          "count": 2,
           "referrer": "github.com",
           "uniques": 1
         },
         {
           "count": 1,
           "referrer": "github-com.translate.goog",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "referrer": "search.brave.com",
+          "uniques": 1
+        },
+        {
+          "count": 1,
+          "referrer": "theomar.me",
           "uniques": 1
         }
       ],
@@ -9791,13 +9927,23 @@
           "count": 9,
           "date": "2026-08-17",
           "uniques": 2
+        },
+        {
+          "count": 15,
+          "date": "2026-08-18",
+          "uniques": 6
+        },
+        {
+          "count": 9,
+          "date": "2026-08-19",
+          "uniques": 7
         }
       ]
     },
     "OmarMusayev/terminaltui": {
       "all_time": {
-        "clones": 1057,
-        "views": 599
+        "clones": 1063,
+        "views": 605
       },
       "clones": [
         {
@@ -10414,6 +10560,16 @@
           "count": 2,
           "date": "2026-08-17",
           "uniques": 2
+        },
+        {
+          "count": 2,
+          "date": "2026-08-18",
+          "uniques": 2
+        },
+        {
+          "count": 4,
+          "date": "2026-08-19",
+          "uniques": 4
         }
       ],
       "history": [
@@ -11109,6 +11265,13 @@
           "open_issues": 0,
           "stars": 39,
           "watchers": 39
+        },
+        {
+          "date": "2026-08-20",
+          "forks": 1,
+          "open_issues": 0,
+          "stars": 39,
+          "watchers": 39
         }
       ],
       "languages": [
@@ -11132,16 +11295,16 @@
         "language": "TypeScript",
         "open_issues": 0,
         "pushed_at": "2026-07-22T02:42:00Z",
-        "snap_date": "2026-08-19",
+        "snap_date": "2026-08-20",
         "stars": 39,
         "subscribers": 3,
         "watchers": 39
       },
       "npm": {
-        "all_time": 3988,
+        "all_time": 3992,
         "created_at": "2026-03-23T03:04:44.365Z",
-        "d30": 769,
-        "d7": 45,
+        "d30": 510,
+        "d7": 37,
         "daily": [
           {
             "date": "2026-03-23",
@@ -11741,6 +11904,10 @@
           },
           {
             "date": "2026-08-19",
+            "downloads": 4
+          },
+          {
+            "date": "2026-08-20",
             "downloads": 0
           }
         ],
@@ -11752,21 +11919,15 @@
       },
       "paths": [
         {
-          "count": 45,
+          "count": 40,
           "path": "/OmarMusayev/terminaltui",
           "title": "Overview",
-          "uniques": 27
+          "uniques": 24
         },
         {
           "count": 2,
           "path": "/OmarMusayev/terminaltui/blob/main/docs/getting-started.md",
           "title": "/blob/main/docs/getting-started.md",
-          "uniques": 2
-        },
-        {
-          "count": 2,
-          "path": "/OmarMusayev/terminaltui/issues",
-          "title": "/issues",
           "uniques": 2
         },
         {
@@ -11777,51 +11938,51 @@
         },
         {
           "count": 1,
-          "path": "/OmarMusayev/terminaltui/blob/main/CHANGELOG.md",
-          "title": "/blob/main/CHANGELOG.md",
+          "path": "/OmarMusayev/terminaltui/blob/main/assets/recordings/themes.gif",
+          "title": "/blob/main/assets/recordings/themes.gif",
           "uniques": 1
         },
         {
           "count": 1,
-          "path": "/OmarMusayev/terminaltui/blob/main/LICENSE",
-          "title": "/blob/main/LICENSE",
+          "path": "/OmarMusayev/terminaltui/commits",
+          "title": "/commits",
           "uniques": 1
         },
         {
           "count": 1,
-          "path": "/OmarMusayev/terminaltui/blob/main/docs/components.md",
-          "title": "/blob/main/docs/components.md",
+          "path": "/OmarMusayev/terminaltui/releases/tag/v1.8.1",
+          "title": "/releases/tag/v1.8.1",
           "uniques": 1
         },
         {
           "count": 1,
-          "path": "/OmarMusayev/terminaltui/blob/main/docs/routing.md",
-          "title": "/blob/main/docs/routing.md",
+          "path": "/OmarMusayev/terminaltui/tree/main/claude",
+          "title": "/tree/main/claude",
           "uniques": 1
         },
         {
           "count": 1,
-          "path": "/OmarMusayev/terminaltui/blob/main/docs/serve.md",
-          "title": "/blob/main/docs/serve.md",
+          "path": "/omarmusayev/terminaltui",
+          "title": "Overview",
           "uniques": 1
         },
         {
           "count": 1,
-          "path": "/OmarMusayev/terminaltui/blob/main/index.html",
-          "title": "/blob/main/index.html",
+          "path": "/omarmusayev/terminaltui/blob/HEAD/assets/recordings/launch-hero-bg.gif",
+          "title": "/blob/HEAD/assets/recordings/launch-hero-bg.gif",
           "uniques": 1
         }
       ],
       "referrers": [
         {
-          "count": 27,
+          "count": 24,
           "referrer": "github.com",
-          "uniques": 20
+          "uniques": 18
         },
         {
-          "count": 9,
+          "count": 10,
           "referrer": "terminaltui.dev",
-          "uniques": 6
+          "uniques": 7
         }
       ],
       "releases": [],
@@ -12440,26 +12601,36 @@
           "count": 1,
           "date": "2026-08-17",
           "uniques": 1
+        },
+        {
+          "count": 4,
+          "date": "2026-08-18",
+          "uniques": 2
+        },
+        {
+          "count": 2,
+          "date": "2026-08-19",
+          "uniques": 2
         }
       ]
     }
   },
   "totals": {
-    "clones_30d": 2527,
-    "clones_all_time": 10489,
-    "npm_downloads_30d": 769,
-    "npm_downloads_7d": 45,
-    "npm_downloads_all_time": 3988,
+    "clones_30d": 2426,
+    "clones_all_time": 10561,
+    "npm_downloads_30d": 510,
+    "npm_downloads_7d": 37,
+    "npm_downloads_all_time": 3992,
     "npm_packages_count": 1,
     "repo_count": 6,
     "total_forks": 3,
     "total_stars": 62,
     "total_watchers": 5,
-    "unique_cloners_30d": 1546,
-    "unique_cloners_all_time": 5004,
-    "unique_visitors_30d": 302,
-    "unique_visitors_all_time": 1047,
-    "views_30d": 443,
-    "views_all_time": 1610
+    "unique_cloners_30d": 1519,
+    "unique_cloners_all_time": 5033,
+    "unique_visitors_30d": 315,
+    "unique_visitors_all_time": 1067,
+    "views_30d": 452,
+    "views_all_time": 1643
   }
 }
